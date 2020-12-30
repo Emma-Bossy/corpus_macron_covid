@@ -1,0 +1,356 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-10-27T14:00:02+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+           <titleStmt>
+        <title>Adresse aux Français du 13 avril 2020</title>
+        <author></author>
+        <respStmt>
+          <resp>Encodage en XML-TEI</resp>
+          <name > Emma BOSSY </name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Edition étudiante pour le cours de M2HN Recherches actuelles en HN</edition>
+        <date>novembre 2020</date>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>Université de Lyon</publisher>
+        <pubPlace>Lyon </pubPlace>
+      </publicationStmt>
+
+      <sourceDesc>Retranscription disponible sur le site de l'Elysée </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[2020-10-27]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+      <p><placeName type = 'nationalité' nymRef = 'France'> <country nymRef = 'France'>Françaises </country></placeName>, 
+      <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>, </p>
+      <p>Mes chers compatriotes,</p>
+      <p>Nous sommes en train de vivre des jours difficiles. </p>
+      <p>Nous ressentons tous en ce moment la <trait type = " émotion" nymRef = "peur">peur</trait>, l’<trait type = " émotion" nymRef = "peur">angoisse</trait> 
+      pour nos parents, pour nous même face à ce virus redoutable, invisible, 
+      imprévisible. </p>
+      <p>La fatigue et la <trait type = " émotion" nymRef = "lassitude">lassitude</trait> pour certains, 
+      le deuil et le <trait type = " émotion" nymRef = "tristesse">chagrin</trait> pour d’autres. </p>
+      <p>Cette période est encore plus difficile à vivre lorsqu’on habite à plusieurs dans un appartement exigu, lorsqu’on ne dispose pas chez soi 
+      des moyens de communications nécessaires pour apprendre, se distraire, échanger. Encore plus difficile à vivre lorsque les tensions sont là, 
+      que les risques de violence dans la famille scandent le quotidien et nous mesurons tous, dans cette période,
+       la <trait type = " émotion" nymRef = "solitude">solitude</trait>
+       et la <trait type = " émotion" nymRef = "tristesse">tristesse</trait> de nos aînés. </p>
+      <p>Et pourtant, grâce à nos <trait type = "combat">efforts</trait>, chaque jour nous avons progressé. 
+      Nos <roleName type='profession' nymRef = "fonctionnaire">fonctionnaires</roleName> 
+      et <roleName type='santé' nymRef = "personnel santé">personnels de santé</roleName>,
+       <roleName type = "santé" nymRef = "médecin">médecins</roleName>, 
+      <roleName type = "santé" nymRef = "infirmier">infirmiers</roleName>,
+      <roleName type='santé' nymRef = "aide-soignant">aides-soignants</roleName>, 
+      <roleName type='santé' nymRef = "ambulancier">ambulanciers</roleName>, 
+      <roleName type='santé' nymRef = "secouriste">secouristes</roleName>, 
+      nos <roleName type='profession' nymRef = "militaire">militaires</roleName>, nos <roleName type='profession' nymRef = "pompier">pompiers</roleName>, 
+      nos <roleName type='santé' nymRef = "pharmacien">pharmaciens</roleName> ont donné 
+      dans cette <trait type = "combat" subtype ="militaire"><num type = "ordinal" nymRef ="1st">première</num> ligne</trait> toute leur 
+       énergie pour sauver des vies et soigner. Ils ont tenu. Les hôpitaux <placeName type = 'nationalité' nymRef = 'France'>français</placeName> 
+       ont réussi à soigner tous ceux qui s’y présentaient. Ces journées, ces semaines ont été et resteront l’honneur 
+       de nos <roleName type = "santé" nymRef = "soignant">soignants</roleName>, en ville comme à l’hôpital. </p>
+      <p>Dans la <num type = "ordinal" val="2nd">deuxième</num> ligne, 
+      nos <roleName type='profession' nymRef = "agriculteur">agriculteurs</roleName>, nos <roleName type='profession' nymRef = "enseignant">enseignants</roleName>, 
+      nos <roleName type='profession' nymRef = "routier">chauffeurs routiers</roleName>
+      , <roleName type='profession' nymRef = "livreur">livreurs</roleName>, <roleName type='profession' nymRef = "électricien">électriciens</roleName>, 
+      <roleName type='profession' nymRef = "manutentionnaire">manutentionnaires</roleName>, 
+      <roleName type='profession' nymRef = "caissier">caissiers et caissières</roleName>, 
+      nos <roleName type='profession' nymRef = "éboueur">éboueurs</roleName>, 
+      <roleName type='profession' nymRef = "sécurité">personnels de sécurité</roleName> et <roleName type='profession' nymRef = "personnel nettoyage">de nettoyage</roleName>,
+       nos <roleName type='profession' nymRef = "fonctionnaire">fonctionnaires</roleName>, nos <roleName type='profession' nymRef = "journaliste">journalistes</roleName>, nos 
+      <roleName type='profession' nymRef = "travailleur social">travailleurs sociaux</roleName>, 
+      nos <roleName type = "politique" nymRef = "maire">maires</roleName> et <roleName type = "politique" nymRef = "élu">élus locaux</roleName> 
+      et j’en oublie tellement aidé par tant de <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> 
+      qui se sont engagés. Tous ont permis à la vie de continuer au fond. </p>
+      <p>Et chacun d’entre vous, dans ce que j’ai appelé cette <num type = "ordinal" val = "3rd">troisième</num> ligne, 
+      <trait type = "mobilisation">chacun d’entre vous par votre civisme, en respectant les règles de
+       confinement</trait>, grâce aussi à la vigilance de nos <roleName type='profession' nymRef = "policier">policiers</roleName> 
+       et de nos <roleName type='profession' nymRef = "gendarme">gendarmes</roleName>, vous avez fait que l’épidémie commence à marquer le pas. </p>
+      <p>Les résultats sont là. Plusieurs régions ont pu être épargnées. Depuis quelques jours, les entrées en réanimation diminuent. 
+      L'<trait type = " émotion" nymRef = "espoir">espoir</trait> renaît. </p>
+      <p>Et je veux ce soir vous remercier très chaleureusement 
+      pour ce <trait type = "laudatif">dévouement</trait> et vous dire toute ma <trait type = " émotion" nymRef = "gratitude">reconnaissance</trait>. </p>
+      <p>Alors, étions-nous préparés à cette crise ? A l’évidence, pas assez mais nous avons fait face 
+      en <placeName nymRef = 'France'> <country nymRef = 'France'>France</country></placeName> comme partout ailleurs. Nous avons donc dû parer
+       à l’urgence, prendre des décisions difficiles à partir d’informations partielles, souvent changeantes, nous adapter sans cesse, car ce virus était
+        inconnu et il porte encore aujourd’hui beaucoup de mystères. </p>
+      <p>Le moment, soyons honnêtes, a révélé des failles, des insuffisances. Comme tous les pays du monde, nous avons manqué de blouses, 
+      de gants, de gels hydro alcooliques. Nous n’avons pas pu distribuer autant de masques que nous l’aurions voulu 
+      pour nos <roleName type = "santé" nymRef = "soignant">soignants</roleName>, pour les 
+      <roleName type = "santé" nymRef = "personnel s'occupant des aînés">personnels s’occupant de nos aînés</roleName>, 
+      pour les <roleName type = "santé" nymRef = "infirmier">infirmières</roleName> et les <roleName type = "santé" nymRef = "aide à domicile">aides à domicile</roleName>. </p>
+      <p>Dès l’instant où ces problèmes ont été identifiés, <trait type = "mobilisation">nous nous sommes mobilisés</trait> - Gouvernement, collectivités locales, industriels, 
+      associations - pour produire et pour acquérir le matériel nécessaire. Mais je mesure pleinement que, <trait type = "combat" subtype="militaire">lorsque l’on est au front</trait>, 
+      il est difficile d’entendre qu’une pénurie mondiale empêche les livraisons. </p>
+      <p>Les commandes sont désormais passées. Surtout, nos entreprises <placeName type = 'nationalité' nymRef = 'France'>françaises</placeName> et nos 
+      <roleName type='profession' nymRef = "travailleur">travailleurs</roleName> <trait type = "mobilisation">ont répondu présent</trait> et une production, 
+      comme en temps de <trait type = "combat" subtype="militaire">guerre</trait>, 
+      s’est mise en place : nous avons réouvert des lignes pour produire et nous avons réquisitionné. </p>
+      <p>D'ici <num type = "cardinal" val="3">trois</num> semaines, nous aurons, imaginez-le, multiplier par <num type = "cardinal" val="5">cinq</num> 
+      la production de masques pour nos <roleName type='santé' nymRef = "soignant">soignants</roleName> 
+      en <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName> 
+      et nous aurons produit <num type="cardinal" val="10 000">10 000</num>
+       respirateurs supplémentaires de plus sur notre sol. Ces respirateurs si précieux en réanimation.</p>
+      <p>Grâce à ces <trait type = "combat">efforts</trait>, nous saurons <trait type = "combat">faire face</trait> 
+      et nous allons continuer à distribuer davantage d’équipements. </p>
+      <p>Mais comme vous, j’ai vu des ratés, encore trop de lenteur, de procédures inutiles, des faiblesses aussi de notre logistique. Nous en 
+      tirerons toutes les conséquences, en temps voulu, quand il s’agira de nous réorganiser. 
+<lb/>Ces dernières semaines, soyons aussi justes avec notre pays, ont été marqué par de vraies réussites : le doublement du nombre de lits en 
+réanimation, ce qui n’avait jamais été atteint, les coopérations inédites entre l’hôpital, les cliniques privées et la médecine de ville, le transfert de
+ patients, vers les régions les moins touchées, mais aussi vers le <placeName nymRef = 'Luxembourg'> <country nymRef = 'Luxembourg'>Luxembourg </country></placeName>, la <placeName> <country>
+  Suisse </country></placeName>, l’ <placeName nymRef = 'Germany'> <country nymRef = 'Germany'> Allemagne </country></placeName> et 
+ l’<placeName nymRef = 'Austria'> <country nymRef = 'Austria'> Autriche </country></placeName>, que je remercie, la mise en place de l’enseignement à distance,
+  l’organisation de chaînes de solidarité dans nos communes, la réussite de tous ceux qui nous ont nourris durant ces 
+ semaines sans rupture, avec engagement, le rapatriement de plusieurs dizaines de milliers de 
+ ressortissants <placeName type = 'nationalité' nymRef = 'France'>français</placeName> 
+ et  <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName> depuis des pays du monde entier et le soutien 
+ aux <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> de l’étranger. </p>
+      <p>Très souvent, ce qui semblait impossible depuis des années, nous avons su le faire en quelques jours. Nous avons innové, osé, agit au 
+      plus près du terrain, beaucoup de solutions ont été trouvées. Nous devrons nous en souvenir car ce sont autant de forces pour le futur. </p>
+      <p>Mes chers compatriotes, si je tenais à m’adresser à vous ce soir, après avoir largement consulté ces derniers jours, c’est pour vous dire 
+      en toute transparence ce qui nous attend pour les prochaines semaines et les prochains mois. </p>
+      <p>L'<trait type = " émotion" nymRef = "espoir">espoir</trait> renaît, je vous le disais, oui, mais rien n’est acquis. 
+      Dans le <placeName nymRef = 'Grand-Est'> <region nymRef = 'Grand-Est'> Grand Est </region></placeName> 
+      comme en <placeName nymRef = 'Ile-de-France'> <region nymRef = 'Ile-de-France'>Ile de France </region></placeName>, 
+      les services hospitaliers sont saturés. Partout, 
+      en <placeName nymRef='Metropolitan France'> <region nymRef='Metropolitan France'>Hexagone </region></placeName> comme 
+      dans les <placeName nymRef='DOM-TOM'> <region nymRef='DOM-TOM'>outre-mer</region></placeName>, 
+      le système est sous tension et l’épidémie n’est pas encore maîtrisée. </p>
+      <p>Nous devons donc poursuivre nos <trait type = "combat">efforts</trait> et continuer d’appliquer les règles. 
+      Plus elles seront respectées, plus nous sauveront de vies. </p>
+      <p>C'est pour cela que le confinement le plus strict doit encore se poursuivre jusqu’au <date when="2020-05-11">lundi 11 mai</date>.
+       C'est durant cette période, le seul moyen d’agir efficacement. </p>
+      <p>C'est la condition pour ralentir encore davantage la propagation du virus, réussir à retrouver des places disponibles en réanimation et 
+      permettre à nos <roleName type = "santé" nymRef = "soignant">soignants</roleName> de reconstituer leurs forces. 
+      Le <date  when="2020-05-11">>lundi 11 mai</date> <trait type = "mobilisation">ne sera possible que si nous continuons 
+      d’être civiques, responsables, de respecter les règles</trait> et que si la propagation du virus a effectivement continué à ralentir. </p>
+      <p>Je mesure pleinement, en vous le disant, l’<trait type = "combat">effort</trait> que je vous demande. 
+      Durant les <num type = "cardinal" val="4">4</num> semaines 
+      à venir, les règles prévues par le 
+      gouvernement devront continuer d’être respectées. Elles sont en train de montrer leur efficacité et ne doivent être ni renforcées ni allégées, 
+      mais pleinement appliquées. Je demande à tous nos <roleName type = "politique" nymRef = "élu">élus</roleName>, 
+      dont je sais l’importance dans cette période, je demande à tous nos <roleName type = "politique" nymRef = "élu">élus</roleName>, 
+      comme la République le prévoit en cette matière, d’aider à ce que ces règles soient les mêmes partout sur notre sol. Des couvre-feux ont été 
+      décidés là où c’était utile mais il ne faut pas rajouter des interdits dans la journée. </p>
+      <p>Pour notre vie quotidienne, il faut continuer lorsque nous sortons à appliquer les « gestes barrières » : nous tenir à distance et nous laver 
+      les mains. Je veux aussi vous rappeler que tous ceux qui ont une maladie chronique ou souffrent d’autres maladies doivent pouvoir continuer 
+      à consulter leur <roleName type = "santé" nymRef = "médecin">médecin</roleName>. 
+      Car il n’y a pas que le virus qui tue : l’extrême <trait type = " émotion" nymRef = "solitude">solitude</trait>, l
+      e renoncement à d’autres soins peuvent-être aussi dangereux.
+       </p>
+      <p>Je souhaite aussi que les hôpitaux et les maisons de retraite puissent permettre d’organiser pour les plus proches, avec les bonnes 
+      protections, la visite aux malades en fin de vie afin de pouvoir leur dire adieu. </p>
+      <p>Durant cette phase de confinement, le pays continue à vivre, et heureusement. Certaines activités sont interdites, car incompatibles
+       avec les règles sanitaires. Pour tous les autres secteurs économiques, quand la sécurité 
+       des  <roleName type = "profession" nymRef = "travailleur">travailleurs</roleName> 
+       et des  <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName> est bien garantie, 
+       ils doivent pouvoir produire et l’ont largement fait depuis maintenant un mois. </p>
+      <p>Pour tous ceux qui doivent-être aidés durant cette période, les mesures de chômage partielles 
+      pour les <roleName type = "profession" nymRef = "salarié">salariés</roleName> et de financement pour
+       les entreprises, seront prolongées et renforcées. Elles sont inédites et protèges d’ores et déjà plus 
+       de <num type="cardinal" val="8 000 000">8 millions</num> de nos <roleName type = "profession" nymRef = "salarié">salariés</roleName> et 
+       nombre de nos entreprises. </p>
+      <p>Pour les <roleName type = "profession" nymRef = "artisan">artisans</roleName>, 
+      les <roleName type = "profession" nymRef = "commerçant">commerçants</roleName>,
+       les <roleName type = "profession" nymRef = "profession libérale">professions libérales</roleName> 
+       et les <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>, 
+       le fonds de solidarité apporte une <num type = "ordinal" val = "1st">première</num> réponse 
+      mais je sais votre <trait type = " émotion" nymRef = "peur">angoisse</trait>, je l’ai entendu, je l’ai lu : 
+      les charges qui continuent de tomber, les traites, les loyers, les emprunts, c’est pourquoi 
+      j’ai demandé au Gouvernement d’accroître fortement les aides, de les simplifier, pour vous permettre de surmonter cette période. Je souhaite 
+      que les banques puissent décaler toutes les échéances beaucoup plus massivement qu’elles ne l’ont fait et les assurances doivent être au 
+      rendez-vous de cette <trait type = "mobilisation">mobilisation économique</trait>. J’y serai attentif.</p>
+      <p>Il y a donc un travail dans les prochains jours à poursuivre pour vous consolider économiquement dans cette période.</p>
+      <p>Rapidement, un plan spécifique sera mis en oeuvre pour les secteurs qui, comme le tourisme, l’hôtellerie, la restauration, la culture 
+      et l’événementiel, seront durablement affectés. Des annulations de charges et des aides spécifiques seront mises en place.</p>
+      <p>Pour les plus fragiles et les plus démunis, ces semaines sont aussi très difficiles. 
+      Je veux remercier les <roleName type = "politique" nymRef = "maire">maires</roleName>,
+       les <roleName type = "politique" nymRef = "élu">élus locaux</roleName>, les 
+      associations qui se sont <trait type = "mobilisation">fortement mobilisés aux côtés du Gouvernement</trait>. 
+      Et j’ai demandé à celui-ci d’aller plus loin là aussi et de verser
+       sans délai une aide exceptionnelle aux familles les plus modestes avec des enfants afin de leur permettre de <trait type = "combat">faire face</trait> à leurs besoins
+        essentiels. Les <roleName type = "profession" nymRef = "étudiant">étudiants</roleName> 
+        les plus précaires vivants parfois loin de leurs familles, en particulier lorsque celles-ci viennent 
+        d' <placeName nymRef='DOM-TOM'> <region nymRef='DOM-TOM'>outre-mer </region></placeName>, seront aussi aidés. </p>
+      <p>Dès mercredi, le <orgName nymRef='Conseil des ministres'>Conseil des ministres</orgName> décidera 
+      des moyens financiers nouveaux et le Gouvernement apportera toutes les réponses nécessaires à chaque fois qu’il le faudra. </p>
+      <p>Le <date  when="2020-05-11">11 mai prochain</date>, mes chers compatriotes, sera donc le début d’une nouvelle étape. 
+      Elle sera progressive, les règles pourront être 
+      adaptées en fonction de nos résultats car l’objectif <num type = "ordinal" val = "1st">premier</num> demeure la santé de 
+      tous les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>. </p>
+      <p>A partir du <date when="2020-05-11">11 mai</date>, nous rouvrirons progressivement les crèches, les écoles, les collèges et les lycées. </p>
+      <p>C’est pour moi une priorité car la situation actuelle creuse des inégalités. Trop d’enfants, notamment dans les quartiers populaires et dans 
+      nos campagnes, sont privés d’école sans avoir accès au numérique et ne peuvent être aidés de la même manière par les parents. Dans cette
+       période, les inégalités de logement, les inégalités entre familles sont encore plus marquées. C’est pourquoi nos enfants doivent pouvoir 
+       retrouver le chemin des classes. Le Gouvernement, dans la concertation, aura à aménager des règles particulières : organiser différemment le 
+       temps et l’espace, bien protéger nos enseignants et nos enfants, avec le matériel nécessaire. </p>
+      <p>Pour les  <roleName type = "profession" nymRef = "étudiant">étudiants</roleName> de l’enseignement supérieur,
+       les cours ne reprendront pas physiquement jusqu’à l’été. Le Gouvernement précisera pour
+       chacun la bonne organisation qui sera nécessaire, en particulier pour les examens et les concours. </p>
+      <p>Le <date when="2020-05-11">11 mai</date>, il s’agira aussi de permettre au plus grand nombre de retourner travailler, 
+      redémarrer notre industrie, nos commerces et nos services.
+       Le Gouvernement préparera sans délai ces réouvertures avec les partenaires sociaux pour que des règles soient établies afin de 
+      protéger les <roleName type = "profession" nymRef = "salarié">salariés</roleName> au travail. C'est la priorité. </p>
+      <p>Les lieux rassemblant du public, restaurants, cafés et hôtels, cinémas, théâtres, salles de spectacles et musées, resteront en revanche 
+      fermés à ce stade. Les grands festivals et événements avec un public nombreux ne pourront se tenir au moins
+       jusqu’à <date when = "2020-07-15">mi-juillet prochain</date>. 
+      La situation sera collectivement évaluée à partir de mi-mai, chaque semaine, pour adapter les choses et vous donner de la visibilité. 
+<lb/>Pour leur protection, nous demanderons aux personnes les plus vulnérables, aux personnes âgées, en situation de handicap sévère, aux
+ personnes atteintes de maladies chroniques, de rester même après le <date when="2020-05-11">11 mai</date> confinées, tout au moins 
+ dans un <num type = "ordinal" val = "1st">premier</num> temps. Je sais que c’est  une contrainte forte.
+  Je mesure ce que je vous demande et nous allons, d’ici le <date when="2020-05-11">11 mai</date>, travailler à rendre ce temps plus supportable pour vous. 
+ Mais il faudra essayer de s’y tenir pour vous protéger, pour votre intérêt.
+<lb/> 
+<lb/>Nous aurons à partir du <date when="2020-05-11">11 mai</date> une organisation nouvelle pour réussir cette étape. 
+L'utilisation la plus large possible des tests et la détection est une <trait type = "combat" subtype="militaire">arme</trait> privilégiée pour sortir au bon moment du confinement. </p>
+      <p>D'ici là et dans les prochaines semaines, nous allons continuer d’augmenter le nombre de tests faits chaque jour. C'est ce qui, depuis 
+      <num type = "cardinal" val="15">15</num> jours, est fait. Durant les semaines à venir, j’ai demandé que ces tests, soient d’abord pratiqués sur nos aînés, 
+      nos <roleName type = "santé" nymRef = "soignant">soignants</roleName> et les plus fragiles. 
+      Et que nous puissions continuer de <trait type = "mobilisation">mobiliser partout tous les moyens de faire des tests</trait>, 
+      c’est-à-dire tous les laboratoires publics et tous les laboratoires privés. </p>
+      <p>Le <date when="2020-05-11">11 mai</date>, nous serons en capacité de tester toute personne présentant des symptômes. Nous n’allons pas tester toutes
+       les <placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName> et 
+       tous les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>, cela n’aurait aucun sens. Mais toute personne
+        ayant un symptôme doit pouvoir être testée. Les personnes ayant le virus pourront ainsi être mises en quarantaine, prises en charge et suivies 
+        par un <roleName type = "santé" nymRef = "médecin">médecin</roleName>. </p>
+      <p>Pour accompagner cette phase, plusieurs innovations font l’objet de travaux avec certains de nos
+       partenaires  <placeName type='nationalité'  nymRef = 'Europe'>européens</placeName>,
+       comme une application numérique dédiée qui, sur la base du volontariat et de l’anonymat, permettra de savoir si, oui ou non, l’on s’est 
+       trouvé en contact avec une personne contaminée. Vous en avez sûrement entendu parler. </p>
+      <p>Le Gouvernement aura à y travailler, il ne faut négliger aucune piste, aucune innovation. 
+      Mais je souhaite qu’avant le <date when="2020-05-11">11 mai</date>, nos
+       <orgName nymRef = "assemblée">Assemblées</orgName> puissent en débattre, et que les autorités compétentes puissent nous éclairer. 
+       Cette épidémie ne saurait affaiblir notre démocratie, ni mordre sur quelques libertés.
+<lb/> 
+<lb/>Jusqu’à nouvel ordre, nos frontières avec les pays non-européens resteront fermées. </p>-->
+      <p>Nous déploierons ensuite tous les moyens nécessaires à la protection de la population. En complément des « gestes barrière » que 
+      vous connaissez bien et qu’il vous faudra continuer à appliquer, l’Etat à partir du <date when="2020-05-11">11 mai</date> 
+      en lien avec les <roleName type = "politique" nymRef = "maire">maires</roleName> devra permettre à 
+      chaque <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> de se procurer un masque grand public. 
+      Pour les professions les plus exposées et pour certaines situations, comme dans les transports en commun, son usage pourra devenir 
+      systématique. </p>
+      <p>Ce sera possible grâce à nos importations et <trait type = "mobilisation">grâce à la formidable mobilisation</trait> 
+      d’<roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName> 
+      et de <roleName type = "profession" nymRef = "salarié">salariés</roleName> partout sur le territoire 
+      pour produire massivement ce type de masques.</p>
+      <p><lb/>Le Gouvernement présentera d’ici <num type = "cardinal" val="15">15</num> jours, sur la base de ces principes, le plan 
+      de l’après <date when="2020-05-11">11 mai</date> et les détails d’organisation de notre vie quotidienne. </p>
+      <p>Des points de rendez-vous réguliers se tiendront pour que nous puissions adapter les mesures prises et ensemble décider de manière 
+      régulière d’ajuster les choses. </p>
+      <p>Alors à quelle échéance, dès lors, peut-on <trait type = "émotion" nymRef = "espoir">espérer</trait> 
+      entrevoir la fin définitive de cette <trait type = "combat">épreuve</trait> ? Quand pourrons-nous renouer avec la vie 
+      d’avant ? Je sais vos questionnements, je les partage. Ils sont légitimes. J'aimerais tellement pouvoir tout vous dire et vous répondre sur
+       chacune de ces questions. Mais en toute franchise, en toute humilité, nous n’avons pas de réponse définitive à cela.
+<lb/> 
+<lb/>Aujourd’hui, d’après les <num type = "ordinal" val="1st">premières</num> données qui seront prochainement affinées 
+par ce qu’on appelle les tests sérologiques, une très 
+faible minorité de <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> ont contracté le Covid-19. 
+Ce qui veut dire que nous sommes loin de ce que les <roleName type='expertise' nymRef = "spécialiste">spécialistes</roleName> appellent l’immunité 
+collective, c’est-à-dire ce moment où le virus arrête de lui-même sa circulation parce que suffisamment d’entre nous l’avons eu. </p>
+  <p>C'est pourquoi la <num type = "ordinal" val="1st">première</num> voie pour sortir de l’épidémie est celle des vaccins. 
+  Tout ce que le monde compte de <trait type = "expertise">talents</trait>, de <roleName type='expertise' nymRef = "chercheur">chercheurs</roleName> y travaille. 
+  La <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName> 
+  est <trait type = "expertise">reconnue en la matière</trait> et a d’<trait type = "expertise">excellentes ressources</trait> 
+  parce que c’est sans doute la solution la plus sûre, même 
+  s’il faudra plusieurs mois au moins pour la mettre en oeuvre. Notre pays investira encore plus massivement dans <trait type = "expertise">la recherche</trait> et je porterai 
+  dans les prochains jours une initiative avec nombre de nos partenaires en votre nom pour accélérer les travaux en cours. </p>
+  <p>La <num type = "ordinal" val="2nd">seconde</num> voie, ce sont les traitements. 
+  Nous y travaillons depuis le <num type = "ordinal" val="1st">premier</num> jour. Il y a eu, je le sais, beaucoup de débats dans le pays. 
+  Toutes les options sont explorées et notre pays est celui qui a engagé le plus d’essais cliniques 
+  en <placeName><bloc nymRef = 'Europe'>Europe </bloc></placeName>. J'ai tenu moi-même à comprendre
+  chacune des options possibles, à m’assurer que tout était essayé dans les meilleurs délais et avec rigueur. Il ne s’agit pas de donner un 
+  traitement si on n’est pas sûr mais de procéder à tous les essais cliniques pour que toutes les pistes soient poursuivies. Et croyez-le, nos 
+  <roleName type = "santé" nymRef = "médecin">médecins</roleName>, 
+  nos <roleName type='expertise' nymRef = "chercheur">chercheurs</roleName> travaillent d’arrache-pied. 
+  Aucune piste n’est négligée, aucune piste ne sera négligée. Je m’y engage. </p>
+  <p>Voilà, ce soir je partage avec vous ce que nous savons et ce que nous ne savons pas. Nous finirons par <trait type = "combat">l’emporter</trait> mais nous aurons 
+  plusieurs mois à vivre avec le virus. Avec humilité, il nous faut aujourd’hui décider et agir en tenant compte des incertitudes avec lucidité, 
+  oui, parce que regardez l’ <placeName nymRef = 'Asia'><bloc nymRef = 'Asia'>Asie </bloc></placeName>, 
+  où le virus semblait avoir été <trait type = "combat">vaincu</trait> et il revient dans de nombreux pays 
+  qui, à nouveau, décident de refermer leurs économies. Il nous faut donc procéder avec <trait type = " émotion" nymRef = "calme">calme</trait>
+   et <trait type = " émotion" nymRef = "courage">courage</trait>. </p>
+  <p>Mais ce que je sais, ce que je sais à ce moment, mes chers compatriotes, c’est que <trait type = "laudatif">notre Nation se tient debout, solidaire, dans un but 
+  commun</trait>. </p>
+  <p>On disait que nous étions un peuple indiscipliné, et voilà que nous respectons des règles, des disciplines parmi les plus rigoureuses 
+  jamais imposées à notre peuple en temps de paix. </p>
+  <p>On disait que nous étions un peuple épuisé, routinier, bien loin de l’élan des fondations, et voilà que tant d’entre vous rivalisent de 
+  <trait type = "laudatif">dévouement</trait>, d’<trait type = "laudatif">engagement</trait> 
+  face à l’inattendu de cette <trait type = "combat" subtype = "militaire">menace</trait>. </p>
+  <p><trait type = "laudatif">Nous voilà tous solidaires, fraternels, unis, concitoyens d’un pays qui fait face</trait>. Concitoyens d’un pays qui débat, qui discute, qui 
+  continue de vivre sa vie démocratique, mais qui reste uni. Et je veux ce soir partager avec vous, 
+  au coeur de l’<trait type = "combat"> épreuve</trait>, cette <trait type = " émotion" nymRef = "fierté">fierté</trait>. </p>
+  <p>Cette certaine idée qui a fait la <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName> est bien là, vivante 
+  et créatrice. Et cela doit nous remplir d’<trait type = " émotion" nymRef = "espoir" >espoir</trait>. </p>
+  <p>Durant les semaines à venir, le Gouvernement, le <orgName nymRef = 'Parlement'>Parlement</orgName>, notre administration, 
+  avec nos <roleName type = "politique" nymRef = "maire">maires</roleName> 
+  et nos <roleName type = "politique" nymRef = "élu">élus locaux</roleName>, auront à préparer 
+  la suite. Pour ce qui me concerne, je tâcherai de porter en <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe </bloc></placeName> notre voix 
+  afin d’avoir plus d’unité et de solidarité. Les <num type = "ordinal" val = "1st">premières</num> décisions ont été dans le bon sens 
+  et nous avons beaucoup poussé pour cela, 
+  qu’il s’agisse de la <orgName nymRef = 'European Central Bank'>Banque centrale <placeName type = 'nationalité' nymRef = 'Europe'>européenne</placeName></orgName>, de la
+   <orgName nymRef = 'European Commission'>Commission <placeName type = 'nationalité' nymRef = 'Europe'>européenne</placeName></orgName>
+    ou des gouvernements. </p>
+  <p>Mais nous sommes à un moment de vérité qui impose plus d’ambition, plus d’<trait type = " émotion" nymRef = "courage">audace</trait>, un moment de refondation. </p>
+  <p>Nous devons aussi savoir aider nos voisins d’<placeName nymRef = 'Africa'> <bloc nymRef = 'Africa'> Afrique </bloc></placeName> 
+  à <trait type = "combat">lutter</trait> contre le virus plus efficacement, à les aider aussi sur le plan économique en annulant massivement leurs dettes. </p>
+  <p>Oui, nous ne <trait type = "combat">gagnerons</trait> jamais seuls.</p>
+  <p>Parce qu’aujourd’hui, à <placeName nymRef = 'Bergamo'> <settlement type = 'city' nymRef = 'Bergamo'>Bergame </settlement></placeName>, 
+  <placeName nymRef = 'Madrid'><settlement type = 'city' nymRef = 'Madrid' >Madrid</settlement></placeName>, 
+  <placeName nymRef = 'Brussels'><settlement type = 'city' nymRef = 'Bruxelles' >Brussels </settlement></placeName>, 
+  <placeName nymRef = 'London'><settlement type = 'city' nymRef = 'London' >Londres</settlement></placeName>,
+   <placeName nymRef = 'Beijing'><settlement type = 'city' nymRef = 'Beijing'>Pékin</settlement></placeName>, 
+   <placeName nymRef = 'New-York'><settlement type = 'city' nymRef = 'New-York'>New York</settlement></placeName>,
+  <placeName nymRef = 'Algiers'><settlement type = 'city' nymRef = 'Algiers'>Alger</settlement></placeName> ou
+  <placeName nymRef = 'Dakar'> <settlement type = 'city' nymRef = 'Dakar'>Dakar </settlement></placeName>, 
+  nous <trait type = " émotion" nymRef = "tristesse">pleurons</trait> les morts d’un même virus.
+  Alors si notre monde sans doute se fragmentera, il est de notre mobilisation de bâtir dès aujourd’hui des solidarités et des coopérations
+  nouvelles. Il nous reviendra aussi, dans les prochaines semaines, de préparer l’après. </p>
+  <p>Il nous faudra rebâtir notre économie plus forte afin de produire et redonner plein <trait type = " émotion" nymRef = "espoir">espoir</trait> à 
+  nos <roleName type = "profession" nymRef = "salarié">salariés</roleName>, 
+  nos <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>, garder notre
+  indépendance financière. </p>
+  <p>Il nous faudra rebâtir une indépendance agricole, sanitaire, industrielle et 
+  technologique <placeName type = 'nationalité' nymRef = 'France'>française</placeName> et plus d’autonomie stratégique pour 
+  notre <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe </bloc></placeName>. Cela passera par un plan massif pour notre santé, notre <trait type = "expertise">recherche</trait>,
+   nos aînés, entre autres. </p>
+      <p>Il nous faudra nous rappeler aussi que notre pays, aujourd’hui, tient tout entier sur des femmes et des hommes que nos économies 
+      reconnaissent et rémunèrent si mal. « Les distinctions sociales ne peuvent être fondées que sur l’utilité commune ». 
+      Ces mots, les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> les ont écrits il y a plus de <num type = "cardinal" val="200">200</num> ans.
+       Nous devons aujourd’hui reprendre le flambeau et donner toute sa force à ce principe. </p>
+      <p>Il nous faudra bâtir une <trait type = "combat">stratégie</trait> où nous retrouverons le temps long, la possibilité de planifier, la sobriété carbone, la prévention, 
+      la résilience qui seules peuvent permettre de <trait type = "combat">faire face</trait> aux crises à venir. </p>
+      <p>Ces quelques évidences s’imposent aujourd’hui à nous mais ne suffiront pas. Je reviendrai donc vers vous pour parler de cet après. 
+      Le moment que nous vivons est un ébranlement intime et collectif. Sachons le vivre comme tel. Il nous rappelle que nous sommes vulnérables,
+       nous l’avions sans doute oublié. Ne cherchons pas tout de suite à y trouver la confirmation de ce en quoi nous avions toujours cru. Non. 
+       Sachons, dans ce moment, sortir des sentiers battus, des idéologies, nous réinventer - et moi le <num type = "ordinal" val = "1st">premier</num>. </p>
+      <p>Il y a dans cette crise une chance : nous ressouder, éprouver notre humanité, bâtir un autre projet dans la concorde. 
+      Un projet <placeName type = 'nationalité' nymRef = 'France'>français</placeName>, une raison de vivre ensemble profonde. </p>
+      <p>Dans les prochaines semaines, avec toutes les composantés de notre Nation, je tâcherai de dessiner ce chemin qui rend cela possible. </p>
+      <p>Mes chers compatriotes, nous aurons des jours meilleurs et nous retrouverons les Jours <trait type = " émotion" nymRef = "bonheur">Heureux</trait>.
+       J'en ai la conviction. </p>
+      <p>Et les vertus qui, aujourd’hui, nous permettent de tenir, seront celles qui nous aideront à bâtir l’avenir, <trait type = "laudatif">notre solidarité, notre confiance,
+       notre volonté</trait>. </p>
+      <p>Alors prenez soin de vous, prenons soin les uns des autres</p>
+      <p>Nous tiendrons. </p>
+      <p>Vive la République. </p>
+      <p>Vive la <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName>.</p>
+    </body>
+  </text>
+</TEI>

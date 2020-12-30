@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-10-31T16:54:35+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Allocution du Président de la République du 28 octobre 2020</title>
+        <author></author>
+        <respStmt>
+          <resp>Encodage en XML-TEI</resp>
+          <name > Emma BOSSY </name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Edition étudiante pour le cours de M2HN Recherches actuelles en HN</edition>
+        <date>novembre 2020</date>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>Université de Lyon</publisher>
+        <pubPlace>Lyon </pubPlace>
+      </publicationStmt>
+      <sourceDesc> Retranscription disponible sur le site de l'Elysée </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[2020-10-29]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  
+  
+  <text>
+    <body>
+      <div subtype="level2">
+        <p><placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName>, <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>,</p>
+        <p>Mes chers compatriotes,</p>
+        <p>La dernière fois que je me suis adressé à vous au sujet de la pandémie qui nous <trait type = "combat">frappe</trait>, j’avais fixé un délai d' une dizaine de jours -
+        pour juger de l’efficacité des choix faits et décider de l’opportunité de mesures nouvelles.</p>
+        <p>Nous y sommes.</p>
+        <p>Et si les <trait type = "combat">efforts</trait> consentis ont été utiles, la lucidité commande d’admettre que cela ne suffit pas, cela ne suffit plus.</p>
+        <p> </p>
+        <div subtype="level3">
+          <head>Quelle est à cette heure la situation de notre épidémie ?</head>
+          <p>Le virus circule en <placeName nymRef = 'France'> <country nymRef = "France">France </country></placeName> à une vitesse que même les prévisions 
+          les plus pessimistes n’avaient pas anticipée.  </p>
+          <p>Le nombre de contaminations rapporté à la population a doublé en moins de <num type = "cardinal" val="2">deux</num> semaines.</p>
+          <p>Hier, <num type = "cardinal" val="527">527</num> de nos compatriotes sont décédées du COVID-19. Hier, nous avons dénombré 
+          près de <num type = "cardinal" val="3 000">3000</num> personnes en réanimation, 
+          soit plus de <num type="percentage" val="50%">la moitié</num> des capacités nationales.</p>
+          <p>A la différence de la <num type = "ordinal" val="1st">première</num> vague, l’ensemble des régions se trouvent aujourd’hui au seuil d’alerte. 
+          Dans de nombreux endroits, 
+          pour prendre en charge les patients COVID-19, nous avons commencé à déprogrammer des opérations du coeur ou du cancer – parfois 
+          les mêmes qui avaient dû être décalées au printemps.</p>
+          <p>Nous avons pris des mesures. Elles étaient déjà difficiles et je sais qu’elles ont été perçues comme telles par beaucoup d’entre vous. 
+          Elles étaient indispensables et elles ont souvent été contestées parce qu’elles ne faisaient pas plaisir. 
+          Elles se révèlent toutefois insuffisantés pour endiguer une vague qui aujourd’hui touche 
+          toute l’ <placeName nymRef = 'Europe'><bloc nymRef = 'Europe' >Europe </bloc></placeName>.</p>
+          <p>Notre stratégie a été définie dès l’été, c’était de vivre avec le virus. Il s’agissait de maîtriser sa circulation en nous appuyant sur nos capacités pour 
+          « tester, alerter, protéger », sur les gestes barrières, sur la protection des plus fragiles et des mesures de ralentissement de l’épidémie territorialisées, au plus près
+           du terrain. C’est ce que nous avons fait depuis le mois d’<date when ="2020-08">août</date>. </p>
+          <p>Avons-nous tout bien fait ? Non, et je l’ai dit il y a <num type = "ordinal" val = "15">quinze</num> jours, 
+          on peut toujours s’améliorer, mais nous avons fait tout notre possible et je crois profondément 
+          que notre <trait type = "combat">stratégie</trait> était, compte tenu des informations qui étaient les nôtres, la bonne. 
+          Elle fut d’ailleurs celle de tous les pays <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName>. 
+          Nous aurions pu aller plus vite, au début sur les tests, mais depuis plusieurs semaines nous sommes un 
+          des pays d’ <placeName nymRef = 'Europe'><bloc nymRef = 'Europe' >Europe </bloc></placeName> qui teste le plus. 
+          Nous aurions collectivement sans doute dû davantage respecter les gestes barrière en particulier au sein de la famille 
+          ou avec les amis qui sont les lieux où nous nous sommes le plus contaminé. Faut-il nous le reprocher maintenant ?</p>
+          <p>Mais surtout il faut reconnaître que, comme tous nos voisins, nous sommes submergés par l’accélération soudaine de l’épidémie, 
+          par un virus qui semble gagner en force à mesure que l’hiver approche, que les températures baissent. Une fois encore, il faut avoir beaucoup d’humilité.</p>
+          <p>Nous sommes tous, en <placeName nymRef = 'Europe'><bloc nymRef = 'Europe'>Europe </bloc></placeName>, 
+          <trait type = " émotion" nymRef = "surprise">surpris</trait> par l’évolution du virus. 
+          Certains pays, comme l’<placeName nymRef = 'Spain'><country nymRef = 'Spain'> Espagne</country></placeName>, 
+          l’ <placeName nymRef = 'Ireland'><country nymRef = 'Ireland'>Irlande</country></placeName>, 
+          les <placeName nymRef = 'Netherlands'><country nymRef = 'Netherlands'>Pays-Bas</country></placeName>, 
+          ont pris plus tôt des mesures plus dures que les nôtres. 
+          Pourtant, tous, nous en sommes au même point : débordés par une <num type = "ordinal" val="2nd">deuxième</num> vague qui,
+           nous le savons désormais, sera, sans doute, 
+          plus dure et plus meurtrière que la <num type = "ordinal" val="1st">première</num>.</p>
+          <p>A ce stade, nous savons que quoi que nous fassions, près de <num type = "cardinal" val="9 000">9000</num> patients seront en réanimation 
+          à la <date when="2020-11-15">mi-novembre</date>, 
+          soit la quasi-totalité des capacités <placeName type = 'nationalité' nymRef = 'France'>françaises</placeName>. 
+          Nous nous organisons bien sûr pour y <trait type = "combat">faire face</trait>, rouvrir des lits supplémentaires et 
+          nous allons faire le maximum d’<trait type = "combat">efforts</trait> <trait type = "mobilisation">tous ensemble</trait>, mais ce n’est pas suffisant.</p>
+          <p>Si nous ne donnons pas aujourd’hui, un coup de frein brutal aux contaminations, nos hôpitaux seront très vite saturés 
+          sans que nous ayons, cette fois, la possibilité de transférer beaucoup de patients d’une région à une autre parce que le virus est partout.</p>
+          <p>Si nous ne donnons pas aujourd’hui un coup de frein brutal aux contaminations, 
+          les <roleName type = "santé" nymRef = "médecin">médecins</roleName> devront alors choisir, ici entre
+           un patient atteint du COVID et une personne victime d’un accident de la route, là entre <num type = "cardinal" val="2">deux</num> malades du COVID. 
+           Ce qui, compte tenu des valeurs qui sont le nôtres, de ce qu’est la <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName>, 
+           de ce que nous sommes, est inacceptable.</p>
+          <p>Dans ce contexte, ma mobilisation est de protéger tous les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>.
+           Et en dépit des polémiques, en dépit de la difficulté des décisions à prendre, je l’assume pleinement devant vous ce soir.</p>
+          <p> </p>
+        </div>
+        <div subtype="level3">
+          <head>Quels sont nos objectifs ?</head>
+          <p>D’abord, c’est le <num type="ordinal" val="1st">premier</num>, protéger les plus âgés, les plus fragiles, celles et ceux qui sont atteint de diabète, d’obésité, 
+          d’hypertension, de maladies chroniques et qui sont les <num type = "ordinal" val="1st">premières</num> victimes du COVID-19.</p>
+          <p>L’âge est le facteur prépondérant. <num type = "percentage" val="85%">85%</num> des malades décédés ont 
+          plus de <num type = "cardinal" val="70">70</num> ans.</p>
+          <p>Notre <num type = "ordinal" val="2nd">deuxième</num> objectif c’est de protéger les plus jeunes.</p>
+          <p>Je l’ai déjà dit, si le virus tue les plus âgés, il tue aussi, même si c’est plus rare, les plus jeunes.</p>
+          <p>Aujourd’hui, au moment où je vous parle, <num type = "percentage" val="35%">35%</num> des personnes en réanimation 
+          ont moins de <num type = "cardinal" val="65">65</num> ans. 
+          Il touche donc sous des formes graves, toutes les générations.</p>
+          <p>Et nous ne savons pas dire aujourd’hui quelles sont les séquelles à long terme. Perte d’odorat, perte de goût, 
+          difficultés respiratoires : contracter ce virus, n’est jamais anodin, même lorsqu’on a <num type = "cardinal" val="20">20</num> ans.</p>
+          <p><num type = "ordinal" val ="3rd">Troisième</num> objectif c’est de protéger nos <roleName type = "santé" nymRef = "soignant">soignants</roleName>
+           qui, à l’hôpital, dans les structures médico-sociales, en ville, 
+          ont déjà beaucoup donné durant le printemps. Ils ont ensuite dû redoubler d’activité durant l’été pour rattraper les actes reportés
+           au printemps et, malgré la fatigue, ils font face aujourd’hui à cette montée soudaine des urgences.</p>
+          <p>Nous leur devons de prendre toutes les précautions pour limiter la propagation du virus.
+           Si nous ne le faisons pas pour nous, pour nos proches, faisons-le pour eux.</p>
+          <p>Il s’agit troisièmement de protéger les plus modestes qui, parce qu’ils vivent dans des lieux plus exigus, 
+          parce qu’ils occupent des emplois précaires, sont les plus touchés par le virus sur le plan sanitaire, 
+          mais ce sont aussi les plus touchés par les conséquences économiques et sociales de la crise.</p>
+          <p>Enfin, il nous faut protéger notre économie.</p>
+          <p>Je ne crois pas à l’opposition entre santé et économie que certains voudraient instaurer.</p>
+          <p>Il n’y a pas d’économie prospère dans une situation sanitaire dégradée avec un virus qui circule activement.
+           Et, je vous le dis très clairement, il n’y a pas non plus, de système de santé qui tient s’il n’y a pas une économie forte pour le financer.</p>
+          <p>C’est donc un juste équilibre qu’il nous faut sans cesse rechercher.</p>
+          <p>Sans jamais perdre de le vue un principe intangible : pour nous, rien n’est plus important que la vie humaine.</p>
+          <p> </p>
+        </div>
+        <div subtype="level3">
+          <head>Quelles sont dès lors les <trait type = "combat">stratégies</trait> possibles pour arriver à ces objectifs ?</head>
+          <p>Nous pourrions - certains le préconisent - ne rien faire, assumer de laisser le virus circuler. 
+          C’est ce qu’on appelle la recherche de « l’immunité collective » c’est-à-dire 
+          lorsque <num type = "percentage" val="50%">50</num>, <num type = "percentage" val="60%">60%</num> de la population a été contaminée.</p>
+          <p>Le <orgName nymRef="Conseil Scientifique">Conseil Scientifique</orgName> a évalué les conséquences d’une telle option.</p>
+          <p>Elles sont implacables : à très court terme cela signifie le tri entre les patients à l’hôpital. Et d’ici quelques mois c’est au moins 
+          <num type="cardinal" val="400 000" >400 000</num> morts supplémentaires à déplorer.</p>
+          <p>Jamais la <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName> n’adoptera cette <trait type = "combat">stratégie</trait>. 
+          Jamais nous ne laisserons mourir des centaines de milliers de nos citoyens, 
+          ce ne sont pas nos valeurs, ça n’est pas non plus notre intérêt.</p>
+          <p>Une <num type = "ordinal" val="2nd">deuxième</num> voie serait de confiner les seules personnes à risque. 
+          Cette voie n’est pas non plus au moment où je vous parle utilisable.</p>
+          <p>D’abord elle suppose une discussion éthique.</p>
+          <p>D’une part nos aînés comme les personnes vulnérables, ont souvent besoin d’une assistance extérieure pour leurs soins, 
+          leur ménage, la livraison de leurs repas -  certains vivent aussi avec leurs proches, leurs enfants, souvent par manque de moyens. 
+          Et donc créer une forme de bulle autour d’une génération, de certaines personnes, comme une barrière entre les générations, 
+          n’est pas réaliste et à ce stade insuffisant.</p>
+          <p>D’autre part le virus se développe et développe des formes graves chez les plus jeunes. 
+          Et donc, confiner les seules personnes âgées, est inefficace : parce que le virus circulerait toujours trop vite et 
+          sous des formes graves dans le reste de la population. 
+          Et donc nous ne pourrions pas protéger nos <roleName type = "santé" nymRef = "soignant">soignants</roleName>, 
+          nos urgences et même à terme nos aînés avec cette stratégie.</p>
+          <p>Elle peut être pertinente mais elle n’est pas suffisanté.</p>
+          <p>Nous pourrions également faire le pari de tout miser sur la stratégie du « Tester, alerter, protéger. »</p>
+          <p>Après tout, nous réalisons <num type=" cardinal" val="1 900 000">1.9 million</num> de tests par semaine, nous sommes l’un des meilleurs pays 
+          d’ <placeName nymRef = 'Europe'><bloc nymRef = 'Europe'>Europe </bloc></placeName> en la matière. 
+          Et, grâce au travail remarquable de l’<orgName nymRef="Assurance maladie">Assurance maladie</orgName>, 
+          des <orgName nymRef = "Agences Régionales de Santé">Agences Régionales de Santé</orgName>, 
+          <num type = "cardinal" val="100 000">100 000</num> appels sont passés chaque jour
+           pour identifier les cas contact et briser les chaînes de contamination.</p>
+          <p>Mais si ce système peut être efficace avec quelques milliers de cas par jour, 
+          nous avons aujourd’hui entre <num type="cardinal" val="40 000">40 000</num> et 
+          <num type="cardinal" val="50 000">50 000</num> contaminations quotidiennes dépistées, sans doute en réalité le double. 
+          Ce système n’est plus efficace, et d’ailleurs aucun pays <placeName type = 'nationalité' nymRef = 'Europe'>européen</placeName> ne le retient plus aujourd’hui.</p>
+          <p>Quant à la piste de l’augmentation de nos capacités de réanimation que certains évoquent comme une piste 
+          qui nous permettrait de ne pas prendre des mesures difficiles aujourd’hui. Je vais vous dire très clairement, 
+          nous sommes en train de le faire mais là non plus ce n’est pas une bonne réponse.</p>
+          <p>Nous avons les stocks de médicaments, les respirateurs, les masques, les blouses et les gants, tout le matériel nécessaire 
+          parce que nous avons appris de nos insuffisances, de nos manques durant la <num type = "ordinal" val="1st">première</num> vague.</p>
+          <p>Nous avons aussi formé près de <num type = "cardinal" val="7 000">7000</num> <roleName type = "santé" nymRef = "infirmier">infirmiers</roleName> 
+          et <roleName type = "santé" nymRef = "médecin">médecins</roleName> 
+          pour pouvoir travailler en réanimation et nous avons aussi repoussé 
+          nos capacités qui sont passées de <num type = "cardinal" val="5 000">5000</num> lits avant la <num type = "ordinal" val="1st">première</num> 
+          vague à <num type="cardinal" val="6 000">6000</num> aujourd’hui, nous allons les porter 
+          au-delà de <num type="cardinal" val="10 000">10 000</num> lits en réanimation. Un <trait type = "combat">effort</trait> colossal a été fait de formation, d’investissement.
+           Mais il n’est pas suffisant face à cette vague</p>
+          <p>Nous agissons aussi sur le moyen terme : le Ségur de la santé qui correspond à <num type="cardinal" val="8 000 000 000">8 milliards</num> 
+          par an investis dans l’hôpital et notre santé permettra de renforcer l’attractivité des métiers.</p>
+          <p>Mais il faut <num type = "cardinal" val="5">cinq</num> ans 
+          pour former un <roleName type = "santé" nymRef = "infirmier-réanimateur">infirmier-réanimateur</roleName>, 
+          <num type = "cardinal" val="10">dix</num> ans pour former un <roleName type = "santé" nymRef = "anesthésiste">anesthésiste</roleName>. 
+          Il n’y a <trait type = "expertise">pas de solution magique</trait>, 
+          ce n’est pas en quelques mois que nous pourrons créer véritablement une capacité totalement différente. 
+          Nous ne pourrons pas non, compte tenu que les autres pays <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName> sont saturés, 
+          faire appel à une main d’oeuvre étrangère à court terme.</p>
+          <p>Du reste, quand bien même nous pourrions ouvrir beaucoup plus de lits et malgré l’<trait type = "combat">effort</trait> de doublement que nous avons réussi 
+          qui peut sérieusement vouloir que des milliers de nos compatriotes passent des semaines en réanimation avec les séquelles 
+          que cela implique sur le plan médical ?</p>
+          <p> </p>
+        </div>
+        <div subtype="level3">
+          <head>Quelle est donc aujourd’hui la bonne <trait type = "combat">stratégie</trait> à retenir ?</head>
+          <p>Confiner les plus âgés, les plus vulnérables, tester, alerter, protéger, augmenter les lits de réanimation : 
+          aucune de ces solutions n’est suffisanté l’état actuel. Il faut donc aller plus loin.</p>
+          <p>Après avoir consulté les <roleName type='expertise' nymRef = "scientifique">scientifiques</roleName>, 
+          dialogué avec les forces politiques, économiques et sociales, après avoir échangé aussi avec nos 
+          partenaires <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName>, et pesé le pour et le contre,
+           j’ai décidé qu’il fallait retrouver à partir de vendredi le confinement qui a stoppé le virus.</p>
+          <p>Tout le territoire national est concerné, avec des adaptations pour les seuls <placeName nymRef = "DOM-TOM"> <region nymRef = "DOM-TOM">départements 
+          et territoires d’outre-mer </region></placeName>.</p>
+          <p> </p>
+          <p>Mais parce que nous avons appris des événements du printemps, ce confinement sera adapté sur <num type = "cardinal" val="3">trois</num> points principaux :</p>
+          <p>- les écoles resteront ouvertes,</p>
+          <p>- le travail pourra continuer,</p>
+          <p>- les EPHAD et maisons de retraite pourront être visités.</p>
+          <p> </p> 
+        </div>
+        <div subtype="level3">
+          <head>Quelles seront les règles de cette nouvelle étape ?</head>
+          <p>Le Gouvernement les détaillera demain lors d’une conférence de presse. Il y a d’abord ce qui ne changera pas par rapport
+           à ce que nous avons vécu au printemps.</p>
+          <p>Comme au printemps, vous pourrez sortir de chez vous uniquement pour travailler, vous rendre à un rendez-vous médical, 
+          pour porter assistance à un proche, pour faire vos courses essentielles ou prendre l’air à proximité de votre domicile. C’est donc le retour de l’attestation.</p>
+          <p>Comme au printemps, les réunions privées en dehors du strict noyau familial seront donc exclues, les rassemblements 
+          publics seront interdits, et vous ne pourrez pas vous déplacer d’une région à l’autre, à l’exception des retours de 
+          vacances de la Toussaint, et donc il y aura une tolérance durant ce week-end de retour pour que chacune et 
+          chacun puisse revenir de son lieu de vacances, pour que les familles puissent s’organiser.</p>
+          <p>Les commerces qui ont été définis au printemps comme non essentiels, les établissements recevant du public, 
+          notamment les bars et restaurants, seront fermés.</p>
+          <p>Comme au printemps, le « quoiqu’il en coûte », cette réponse économique parmi les plus protectrices du monde 
+          se poursuivra. Elle sera même plus importante qu’en <date when = "2020-03">mars</date> pour nos petites entreprises fermées administrativement 
+          avec la prise en charge jusqu’à <num type ="cardinal" val="10 000">10 000</num> euros par mois de leurs pertes en chiffres d’affaires. 
+          Les <roleName type = "profession" nymRef = "salarié">salariés</roleName> et les <roleName type = "profession" nymRef = "employeur">employeurs</roleName> 
+          qui ne peuvent pas travailler continueront quant à eux à bénéficier du chômage partiel. 
+          Et nous complèterons par des mesures de trésorerie pour les charges et les loyers des prochaines semaines 
+          et un plan spécial sera fait pour les <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>, 
+          les <roleName type = "profession" nymRef = "commerçant">commerçants</roleName> 
+          les très petites et moyennes entreprises qui je sais, <trait type = "émotion">redoutent</trait> plus que tout la crise.</p>
+          <p>Par rapport à <date when="2020-03">mars</date>-<date when = "2020-04">avril</date>, nous avons progressé. C’est pourquoi certaines règles vont évoluer.</p>
+          <p>D’abord, nos enfants ne sauraient être durablement privés d’instruction, d’éducation, de contact avec le système scolaire. 
+          Trop de conséquences, trop de dégâts, en particulier pour les plus modestes. Les crèches, les écoles, les collèges et 
+          les lycées demeureront donc ouverts avec des protocoles sanitaires renforcés. Les facultés et établissements d’enseignement supérieur
+           assureront à l’inverse des cours en ligne.</p>
+          <p>Partout où c’est possible, le télétravail sera à nouveau généralisé. 
+          Mais, et c’est une <num type = "ordinal" val="2nd">seconde</num> différence par rapport au printemps, 
+          l’activité continuera avec plus d’intensité. Les guichets des services publics resteront ouverts. Les usines, les exploitations agricoles, 
+          les Bâtiments et Travaux Publics continueront de fonctionner.</p>
+          <p>L’économie ne doit ni s’arrêter, ni s’effondrer ! <trait type = "mobilisation">Je vous invite donc, dans la mesure des possibilités de chacun, à participer</trait> 
+          de cet <trait type = "combat">effort</trait> en travaillant, en soutenant les entreprises qui, proches de chez vous, ont innové à travers des commandes à distance, 
+          la vente à emporter ou la livraison à domicile. Le Gouvernement accompagnera les TPE/PME 
+          comme les <roleName type = "profession" nymRef = "artisan">artisans</roleName> qui entreprendront 
+          des démarches de numérisation.</p>
+          <p>Nos frontières intérieures à l’espace <placeName type = 'nationalité' nymRef = 'Europe'>européen</placeName> demeureront ouvertes 
+          et sauf, exception, les frontières extérieures resteront fermées.
+            Bien évidemment, les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> de l’Etranger resteront libres de regagner le territoire.
+        Dans les ports et les aéroports pour les déplacements internationaux, des tests rapides obligatoires seront déployés pour toutes les arrivées. 
+        Aucun voyageur ne doit pouvoir entrer sur le <placeName nymRef = "Europe"><bloc nymRef = "Europe">territoire européen</bloc> </placeName> 
+        sans qu’on soit certain qu’il n’est pas porteur du virus.</p>
+          <p>Enfin, pour éviter que ne se nouent des drames humains où des personnes en fin de vie se retrouvent totalement
+           isolées, les visites en maison de retraite ou en EHPAD seront cette fois autorisées dans le strict respect des règles sanitaires. 
+           Je souhaite aussi que les personnes en situation de handicap puissent bénéficier des souplesses dont elles sont besoin. 
+           Quant aux cimetières, en cette période marquée par la Toussaint, ils demeureront ouverts, et je veux que nous puissions 
+           continuer à enterrer dignement nos proches.</p>
+          <p>Ce nouveau confinement ne <trait type = "mobilisation">réussira que par la mobilisation de tous </trait> 
+          et <trait type = "mobilisation">chacun à son rôle à jouer</trait>.</p>
+          <p>Aux personnes à risque, aux plus vulnérables, aux personnes âgées de plus de <num type = "cardinal" val="70">70</num> ans, 
+          je demande une vigilance accrue. 
+          Moins de réunions avec la famille, avec les amis, même si c’est un <trait type = " émotion" nymRef = "tristesse">crève-coeur</trait>. 
+          Et le respect de la distanciation physique, y compris au domicile, le port du masque systématique
+           lorsqu’on se trouve à l’intérieur en présence d’une autre personne, même un proche, un enfant ou un petit enfant.
+           C’est très important pour vous.</p>
+          <p>Les <roleName type = "santé" nymRef = "soignant">soignants</roleName> à l’hôpital, 
+          jouent évidement dans ce contexte un rôle essentiel, mais nous avons besoin
+           des <roleName type = "santé" nymRef = "médecin">médecins de ville</roleName>, des <roleName type = "santé" nymRef = "infirmier">infirmiers</roleName>,
+            des <roleName type = "santé" nymRef = "pharmacien">pharmaciens</roleName>, 
+            de tous les <roleName type = "santé" nymRef = "médicosocial">acteurs du médicosocial</roleName>, 
+            de tous les <roleName type = "santé" nymRef = "pros santé">professionnels de santé</roleName>
+            de ville pour assurer une prise en charge précoce des patients dès les <num type = "ordinal" val="1st">premiers</num> symptômes 
+            pour éviter que ne se développent des formes complexes.</p>
+          <p>Nous avons besoin de nos <roleName type = "politique" nymRef = "élu">élus</roleName>, 
+          nos <roleName type = "politique" nymRef = "maire">maires</roleName> ont joué un rôle essentiel et je les salue. 
+          <roleName type = "politique" nymRef = "maire">Maires</roleName>, 
+          <roleName type = "politique" nymRef = "président EPCI">présidents et présidentes d’intercommunalités, de métropoles</roleName>, 
+          <roleName type = "politique" nymRef = "élu">élus de terrain</roleName>, nous allons avoir besoin de vous
+           de manière encore accrue, pour proposer et aller plus loin en matière de prévention <trait type = "mobilisation">mobiliser</trait> nos associations 
+           pour accompagner les personnes les plus isolées, les moins bien informées et assurer la bonne application des mesures prises. 
+           Que ce soit près de nos jeunes dans le temps périscolaire ou pour accompagner les personnes les plus vulnérables ou les plus âgées.</p>
+          <p>Nous avons besoin des <roleName type = "profession" nymRef = "force sécurité intérieure">forces de sécurité intérieure</roleName> 
+          pour garantir l’application des mesures, de nos <roleName type = "profession" nymRef = "force sécurité intérieure">forces de sécurité civile</roleName> 
+          pour déployer les plateformes de test et aller au contact de la population.</p>
+          <p>Nous avons aussi <trait type = "mobilisation">besoin du sens des mobilisation de chacun</trait> et de l’<trait type = "mobilisation">esprit citoyen de tous</trait>. 
+          Restez au maximum chez vous.  Respectez les règles.</p>
+          <p>Une fois encore je vous le dis, <trait type = "mobilisation">la réussite dépend du civisme de chacune et chacun d’entre nous</trait>.</p>
+          <p>Comment cette nouvelle étape va-t-elle se dérouler dans le temps ?</p>
+          <p>Chaque heure compte. L’ensemble de ces mesures entreront donc en application au plus vite. Elles le seront 
+          dans la nuit de jeudi à vendredi, et seront appliquer a minima jusqu’au <date when="2020-12-01">1er décembre</date>.</p>
+          <p>Dès demain, un débat suivi d’un vote se tiendra au <orgName nymRef ="Parlement">Parlement</orgName>. 
+          Dès demain le Gouvernement détaillera toutes ces mesures, 
+          nous devons nous honorer de cette transparence et du fait que ces décisions difficiles se passent dans un cadre démocratique, 
+          où toutes les oppositions peuvent s’exprimer.</p>
+          <p>Dès demain également, je participerai 
+          à un <orgName nymRef="European Council">Conseil <placeName type = 'nationalité' nymRef = 'Europe'>européen</placeName></orgName> 
+          pour coordonner les réponses sanitaires des différents 
+          pays de l’<orgName nymRef = "EU"> Union </orgName>.</p>
+          <p>Tous les <num type = "cardinal" val="15">quinze</num> jours, nous ferons le point sur l’évolution de l’épidémie et déciderons,
+           le cas échéant, de mesures complémentaires. 
+          Et nous évoluerons alors si nous pouvons alléger certaines contraintes en particulier sur les commerces. 
+          Je sais que beaucoup de <roleName type = "profession" nymRef = "commerçant">commerçants</roleName> 
+          <trait type = " émotion" nymRef = "espoir">espéraient</trait> ne pas fermer. 
+          Je sais que pour les commerces de centre-ville 
+          je demande un très gros <trait type = "combat">effort</trait>. Tenons-le avec beaucoup de rigueur pendant <num type = "cardinal" val="15">15</num> jours. 
+          Si d’ici <num type = "cardinal" val="15">15</num> jours nous maitrisons 
+          mieux la situation nous pourrons alors réévaluer les choses et <trait type = " émotion" nymRef = "espoir">espérer </trait>
+          ouvrir certains commerces, en particulier dans cette 
+          période si importante avant les fêtes de noël. Nous verrons si nous pourrons 
+          cultiver l’<trait type = " émotion" nymRef = "espoir">espoir</trait> de célébrer en famille ce moment 
+          si précieux de Noël et des fêtes de fin d’année.</p>
+          <p>Notre objectif à terme est simple : réduire très fortement les contaminations - de <num type = "cardinal" val="40 000">40 0000</num> contaminations par jour 
+          à <num type = "cardinal" val="5000">5000</num>, ralentir significativement le rythme des entrées à l’hôpital et en réanimation.</p>
+          <p>Et ce n’est qu’alors que nous pourrons redéployer une <trait type = "combat">stratégie</trait> « Tester, Alerter, Protéger » renouvelée, complétée. 
+          C’est pourquoi durant ces semaines nous allons aussi produire des <trait type = "combat">efforts</trait> massifs pour mettre en place beaucoup plus 
+          de plateformes de test à travers des innovations et une nouvelle organisation. Nous devons collectivement déployer 
+          beaucoup plus massivement l’application TOUSANTICOVID, qui sera un instrument de la sortie de cette phase 
+          de confinement. Tests en <num type = "cardinal" val="30">30</num> minutes, meilleurs traçage, isolement plus efficace des personnes positives 
+          qui est un sujet sur lequel nous devons encore réfléchir. Une fois le pic épidémique passé tous ces outils 
+          doivent nous permettre demain de tenir jusqu’au vaccin, à l’été, nous disent 
+          les <roleName type='expertise' nymRef = "scientifique">scientifiques</roleName>.</p>
+          <p>Mes chers compatriotes, nous avons tous été <trait type = " émotion" nymRef = "surprise">surpris</trait> par l’accélération soudaine de l’épidémie. Tous. 
+          Si je sais la <trait type = " émotion" nymRef = "lassitude">lassitude</trait>, cette <trait type = " émotion" nymRef = "lassitude">impression « d’un jour sans fin »</trait> qui tous nous gagne, 
+          nous devons, quoiqu’il arrive, rester unis et solidaires, et ne pas céder au poison de la division.</p>
+          <p>Cette période est difficile en cela qu’elle <trait type = "combat">éprouve</trait> notre résilience et notre unité. <trait type = "laudatif">Mais elle est un révélateur de ce 
+          que nous sommes. Des femmes et des hommes liés les uns aux autres</trait>. 
+          Très peu de génération auront eu comme la nôtre autant de défis ensemble. 
+          Cette pandémie historique, les crises internationales, le terrorisme, les divisions de la société et une crise économique et sociale sans précédent
+           liée à la <num type = "ordinal" val="1st">première</num> vague. Mais j’ai confiance en vous. 
+           Confiance en notre capacité à <trait type = "combat">surmonter cette épreuve</trait>. 
+           Nous devons tenir, <trait type = "mobilisation">chacun à notre place</trait>, dans la transparence, le débat, dans la détermination pour appliquer
+            les règles que nous nous fixons et en nous serrant les coudes. A nouveau, nous nous relèverons. 
+            Si nous sommes unis, et nous serons unis. Nous avons besoin des uns des autres, <trait type = "laudatif">nous sommes une nation unie et solidaire</trait> et
+             c’est à cette condition que nous y arriverons. 
+             Nous sommes la <placeName nymRef = "France"> <country nymRef = 'France'>France </country></placeName>. 
+             Je <trait type = "mobilisation">compte sur chacun d’entre vous</trait>, 
+             je serai là, nous serons là, et nous y arriverons <trait type = "mobilisation">tous ensemble</trait>.</p>
+          <p>Vive la République.</p>
+          <p>Vive la <placeName nymRef = "France"><country nymRef = "France">France</country></placeName>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

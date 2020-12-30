@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-10-27T14:00:21+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adresse aux Français du Président de la République Emmanuel Macron du 16 mars 2020</title>
+        <author></author>
+        <respStmt>
+          <resp>Encodage en XML-TEI</resp>
+          <name > Emma BOSSY </name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Edition étudiante pour le cours de M2HN Recherches actuelles en HN</edition>
+        <date>novembre 2020</date>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>Université de Lyon</publisher>
+        <pubPlace>Lyon </pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc>Retranscription disponible sur le site de l'Elysée</sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[2020-10-27]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p> <placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName>,
+        <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>,</p>
+      <p>Jeudi soir, je me suis adressé à vous pour évoquer la crise sanitaire que traverse notre pays. Jusqu’alors, l’épidémie était peut-être pour
+       certains une idée lointaine, elle est devenue une réalité immédiate, pressanté. </p>
+      <p>Le Gouvernement a pris, comme je vous l’avais annoncé, des dispositions fermes pour freiner la propagation du virus. Les crèches, 
+        les écoles, les collèges, les lycées, les universités sont fermées depuis ce jour. Samedi soir, les restaurants, tous les commerces non-essentiels
+       à la vie de la Nation ont également clôt leurs portes. Les rassemblements de plus de <num type = "cardinal" val='100'>100</num> personnes ont été interdits. Jamais
+        la <placeName nymRef = "France"> <country nymRef = 'France'>France </country></placeName> n’avait dû prendre de telles décisions - évidemment 
+        exceptionnelles, évidemment temporaires en temps de Paix. Elles ont été prises avec ordre, préparation, sur la base de recommandations
+        <trait type = "expertise">scientifiques</trait> avec un seul objectif : nous protéger face à la propagation du virus. </p>
+      <p>Dans la journée de jeudi, un consensus <trait type = "expertise">scientifique</trait> et politique s’est formé 
+        pour maintenir le <num type = "ordinal" val="1st">premier</num> tour des élections municipales et j’ai 
+        pris, avec le <roleName type = "politique" nymRef = "premier ministre">Premier ministre</roleName>, la décision de maintenir le scrutin. 
+        Hier dimanche, les opérations de vote ont donc pu se tenir. Je veux ce soir 
+        remercier les services de l’Etat, les <roleName type = "politique" nymRef = "maire">maires</roleName>, 
+        l’ensemble des services des mairies, tous ceux qui ont tenu les bureaux de vote et qui ont donc
+        permis l’organisation de ce scrutin. Je veux aussi saluer chaleureusement 
+        les <placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName> 
+        et les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> qui, 
+        malgré le contexte, se sont rendus aux urnes, dans le strict respect des consignes sanitaires, des gestes barrières contre le virus. 
+        Je veux aussi ce soir adresser mes félicitations républicaines aux <roleName type = "politique" nymRef = "élu">candidats élus</roleName> 
+        au <num type="ordinal" val="1st">premier</num> tour. 
+        Environ <num type = "cardinal" val="'30 000">30 000</num> communes sur <num type = "cardinal" val='35 000'>35 000</num> ont après 
+        ce <num type = "ordinal" val="1st">premier</num> tour un conseil municipal. Mais dans le même temps, alors même 
+        que les <roleName type = "santé" nymRef = "soignant">personnels soignants des services de réanimation</roleName> 
+        alertaient sur la gravité de la situation, nous avons aussi vu du monde 
+        se rassembler dans les parcs, des marchés bondés, des restaurants, des bars qui n’ont pas respecté la consigne de fermeture. 
+        Comme si, au fond, la vie n’avait pas changé. </p>
+      <p>A tous ceux qui, adoptant ces comportements, ont bravé les consignes, je veux dire ce soir très clairement : non seulement vous ne vous
+        protégez pas vous et l’évolution récente a montré que personne n’est invulnérable y compris les plus jeunes  mais vous ne protégez pas 
+        les autres. Même si vous ne présentez aucun symptôme, vous pouvez transmettre le virus. Même si vous ne présentez aucun symptôme, 
+        vous risquez de contaminer vos amis, vos parents, vos grands-parents, de mettre en danger la santé de ceux qui vous sont chers. </p>
+      <p>Dans le <placeName nymRef = "Grand-Est"> <region nymRef = "Grand-Est">Grand Est </region></placeName>, 
+        dans les <placeName nymRef = "Hauts-de-France"> <region nymRef = "Hauts-de-France">Hauts-de-France </region></placeName>, 
+        en <placeName nymRef = "Ile-de-France"> <region nymRef = "Ile-de-France"> Île-de-France </region></placeName>, 
+        nos <roleName type = "santé" nymRef = "soignant">soignants</roleName> 
+        <trait type = "combat">se battent</trait> pour sauver des vies, avec <trait type = "laudatif">dévouement</trait>,
+        avec <trait type = "laudatif">force</trait>. Au moment où la situation sanitaire se dégrade fortement, où la pression sur nos hôpitaux 
+        et nos <roleName type = "santé" nymRef="soignant">soignants</roleName> s’accentue, 
+        tout notre engagement, toute notre énergie, toute notre force, doivent se concentrer sur un seul objectif : ralentir la progression du virus. </p>
+      <p>Je vous le redis avec force ce soir : respectons les gestes barrières, les consignes sanitaires. C'est le seul moyen de protéger 
+        les personnes vulnérables, d’avoir moins de concitoyens infectés et ainsi de réduire la pression sur les services de réanimation pour qu’ils 
+        puissent mieux accueillir, mieux soigner. </p>
+      <p>Sans signe grave, contactons notre <roleName type = "santé" nymRef = "médecin">médecin traitant</roleName>. 
+      N’appelons le <orgName nymRef = "samu">Samu</orgName> et ne nous rendons à l’hôpital qu’en cas de forte fièvre, de
+        difficulté à respirer, sans quoi, ils ne pourront <trait type = "combat">faire face</trait> à la vague de cas graves qui déjà se profile dans certaines régions. </p>
+      <p><trait type = "mobilisation">Faisons preuve au fond d’esprit solidaire et de sens des mobilisations</trait>. 
+      <trait type = "mobilisation">Chacun d’entre nous doit</trait> à tout prix limiter le nombre de
+        personnes avec qui il est en contact chaque jour. Les <roleName type='expertise' nymRef = "scientifique">scientifiques </roleName> le disent, 
+        c’est la priorité absolue. C'est pourquoi, après avoir consulté,
+        écouté les <roleName type='expertise' nymRef = "expert">experts</roleName>, le terrain et en conscience, 
+        j’ai décidé de renforcer encore les mesures pour réduire nos déplacements et nos contacts 
+        au strict nécessaire. Dès demain midi et pour <num type = "cardinal" val='15'>15</num> jours au moins, nos déplacements seront très fortement réduits. </p>
+      <p>Cela signifie que les regroupements extérieurs, les réunions familiales ou amicales ne seront plus permises. Se promener, retrouver ses
+        amis dans le parc, dans la rue, ne sera plus possible. Il s’agit de limiter au maximum ces contacts au-delà du foyer. Partout sur le
+        territoire <placeName type = 'nationalité' nymRef = 'France'>français</placeName>, 
+        en <placeName nymRef = "Metropolitan France"> <region nymRef = " Metropolitan France">métropole </region></placeName> 
+        comme <placeName nymRef = "DOM-TOM"> <region nymRef = "DOM-TOM">Outre-mer </region></placeName>, 
+        seuls doivent demeurer les trajets nécessaires, nécessaires pour aller faire ses courses avec de la discipline et en mettant les distances 
+        d’au moins un mètre, en ne serrant pas la main, en ne s’embrassant pas, les trajets nécessaires pour se soigner, évidemment, les trajets 
+        nécessaires pour aller travailler si le travail à distance n’est pas possible et les trajets nécessaires pour faire un peu d’activité physique mais
+        sans retrouver, là encore, des amis ou des proches. Toutes les entreprises doivent s’organiser pour faciliter le travail à distance, et quand 
+        cela ne sera pas possible, elles devront adapter dès demain leur organisation pour faire respecter ces gestes barrières contre le virus, 
+        c’est à dire protéger leurs <roleName type = "profession" nymRef = "salarié">salariés</roleName>, ou, quand il s’agit d'
+        <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>,
+        se protéger eux-mêmes. Le Gouvernement précisera les modalités 
+        de ces nouvelles règles dès ce soir, après mon allocution. Toute infraction à ces règles sera sanctionnée. Je vous le dis avec beaucoup 
+        de solennité ce soir, écoutons les <roleName type = "santé" nymRef = "soignant">soignants</roleName>, qui nous disent : 
+        si vous voulez nous aider, il faut rester chez vous et limiter les contacts. 
+        C'est le plus important. Evidemment, ce soir, je pose des règles nouvelles, nous posons des interdits, il y aura des contrôles. <trait type = "mobilisation">Mais la meilleure
+        règle, c’est celle qu’en tant que citoyen, vous vous appliquez à vous-mêmes</trait>. <trait type = "mobilisation">Une fois encore, j’en appelle à votre sens des mobilisations
+        et de la solidarité</trait>. </p>
+      <p>Dans ce contexte, après avoir consulté le <roleName type='politique' nymRef = "président du sénat">Président du <orgName nymRef = "Sénat">Sénat</orgName></roleName>, 
+        le <roleName type='politique' nymRef = "président de l'assemblée nationale">Président de l’<orgName nymRef = "Assemblée nationale">Assemblée nationale</orgName></roleName> 
+        mais également mes prédécesseurs, j’ai décidé que le <num type = "ordinal" val="2nd">second</num> tour des élections municipales serait reporté. 
+        Le <roleName type = "politique" nymRef = "premier ministre">Premier ministre</roleName> 
+        en a informé aujourd’hui même les <roleName type = "politique" nymRef = "chef de parti">chefs de parti</roleName> 
+        représentés au <orgName nymRef = "Parlement">Parlement</orgName>. Cette décision a fait l’objet d’un accord unanime. </p>
+      <p>Mes chers compatriotes, je mesure l’impact de toutes ces décisions sur vos vies. Renoncer à voir ses proches, 
+      c’est un <trait type = " émotion" nymRef = "tristesse">déchirement</trait> ; 
+        stopper ses activités quotidiennes, ses habitudes, c’est très difficile. Cela ne doit pas nous empêcher de garder le lien, d’appeler nos proches, 
+        de donner des nouvelles, d’organiser aussi les choses avec nos voisins, d’inventer de nouvelles solidarités entre générations, de rester, comme
+        je vous l’ai dit jeudi dernier, profondément solidaires et d’innover là aussi sur ce point. Je sais que je vous demande de rester chez vous. 
+        Je vous demande aussi de garder le <trait type = " émotion" nymRef = "calme">calme</trait> dans ce contexte. J'ai vu, ces dernières heures, 
+        des phénomènes de <trait type = " émotion" nymRef = "peur">panique</trait> en tout sens. 
+        <trait type = "mobilisation">Nous devons tous avoir l’esprit de mobilisation</trait>. 
+        <trait type = "expertise">Il ne faut pas que les fausses informations circulent à tout va</trait>. En restant chez vous, 
+        occupez-vous des proches qui sont dans votre appartement, dans votre maison. Donnez des nouvelles, prenez des nouvelles. Lisez, 
+        retrouvez aussi ce sens de l’essentiel. Je pense que c’est important dans les moments que nous vivons. La culture, l’éducation, 
+        le sens des choses est important. Et évitez l’esprit de <trait type = " émotion" nymRef = "peur">panique</trait>, <trait type = "expertise">de croire dans toutes les fausses rumeurs, 
+        les <roleName type='expertise' nymRef = "demi-expert">demi-experts</roleName> ou les 
+        <roleName>faux-sachants</roleName></trait>. La parole est claire, l’information est transparente et nous continuerons de la donner. 
+        Mais croyez-moi, cet <trait type = "combat">effort</trait> que je vous demande, je sais qu’il est inédit mais les circonstances nous y obligent. </p>
+      <p>Nous sommes en <trait type = "combat" subtype = "militaire">guerre</trait>, en <trait type = "combat" subtype = "militaire">guerre</trait> sanitaire, 
+      certes : nous ne <trait type = "combat">luttons</trait> ni contre une <trait type = "combat" subtype = "militaire">armée</trait>, 
+      ni contre une autre Nation. Mais l’<trait type = "combat" subtype = "militaire">ennemi</trait> est là,
+        invisible, insaisissable, qui progresse. Et <trait type = "mobilisation">cela requiert notre mobilisation générale</trait>. </p>
+      <p>Nous sommes en <trait type = "combat" subtype = "militaire">guerre</trait>. 
+      Toute l’action du Gouvernement et du <orgName nymRef = "Parlement">Parlement</orgName> 
+        doit être désormais tournée vers le <trait type = "combat">combat</trait> contre l’épidémie. 
+        De jour comme de nuit, rien ne doit nous en divertir. C'est pourquoi, j’ai décidé que toutes les réformes en cours seraient suspendues, à 
+        commencer par la réforme des retraites. Dès mardi, en <orgName nymRef = "Conseil des ministres">Conseil des ministres</orgName>, 
+        sera présenté un projet de loi permettant au gouvernement de 
+        répondre à l’urgence et, lorsque nécessaire, de légiférer par ordonnances dans les domaines relevant strictement de la gestion de crise. 
+        Ce projet sera soumis au <orgName nymRef = "Parlement">Parlement</orgName> dès jeudi. 
+        <lb/>J’ai vu tout à l’heure 
+        les <roleName type='politique' nymRef = "président de l'assemblée nationale et du sénat">présidents de l’<orgName nymRef = "Assemblée nationale">Assemblée nationale</orgName> 
+        et du <orgName nymRef = "Sénat">Sénat</orgName></roleName> afin que ces textes soient votés le plus rapidement possible, afin 
+        aussi que la vie démocratique et le contrôle du <orgName nymRef = "Parlement">Parlement</orgName> continue dans cette période. 
+        Je les en remercie et je remercie tous nos <roleName type='politique' nymRef = "parlementaire">parlementaires</roleName> en cet instant. </p>
+      <p>Nous sommes en <trait type = "combat" subtype = "militaire">guerre</trait>. 
+      J’appelle tous les <roleName type='expertise' nymRef = "acteurs">acteurs politiques, économiques, sociaux, associatifs</roleName>, tous
+        les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName> à <trait type = "mobilisation">s’inscrire dans cette union nationale qui a
+        permis à notre pays de surmonter tant de crises par le passé</trait>. </p>
+      <p>Nous sommes en <trait type = "combat" subtype = "militaire">guerre</trait>. 
+      La Nation soutiendra ses enfants qui, <roleName type = "santé" nymRef = "soignant">personnels soignants</roleName>
+       en ville, à l’hôpital, se trouvent <trait type = "combat" subtype = "militaire">en <num type="ordinal" val="1st">première</num> ligne</trait> 
+        dans un <trait type = "combat">combat</trait> qui va leur demander énergie, détermination, solidarité. Ils ont des droits sur nous. 
+        Nous leur devons évidemment les moyens,
+        la protection. Nous serons là. Nous leur devons des masques, du gel, tout le matériel nécessaire et nous y veillons et veillerons. Nous avons 
+        décidé avec les <roleName type='expertise' nymRef = "scientifique">scientifiques</roleName> de réserver les masques en priorité pour l’hôpital
+        et pour la médecine de ville et de campagne, en particulier les 
+        <roleName type = "santé" nymRef = "médecin">généralistes</roleName>, les <roleName type = "santé" nymRef = "infirmier">infirmières</roleName> désormais 
+         <trait type = "combat" subtype = "militaire">en <num type="ordinal" val = "1st">première</num> ligne</trait> aussi dans la gestion de la crise. 
+        Des masques seront livrés dans les pharmacies
+        dès demain soir dans les <num type = "cardinal" val="25">25</num> départements les plus touchés. Mercredi pour le reste du territoire national. 
+        J'ai aussi entendu le message des <roleName type='expertise' nymRef = "spécialiste">spécialistes</roleName>, 
+        en particulier des <roleName type = "santé" nymRef = "dentiste">chirurgiens-dentistes</roleName> et beaucoup d’autres. 
+        Des solutions seront trouvées avec le <roleName type = "politique" nymRef = "ministre de la santé">Ministre de la Santé</roleName> dans les prochaines heures. </p>
+      <p>Nous devons aussi aux <roleName type = "santé" nymRef = "soignant">soignants</roleName> 
+      la garde de leurs enfants : un service minimum de garde est en place depuis ce jour dans les crèches 
+       et dans les écoles. Nous leur devons aussi <trait type = " émotion" nymRef = "calme">sérénité</trait> dans leurs déplacements et repos. 
+       C'est pourquoi j’ai décidé que, dès demain, les taxis et les hôtels pourront être <trait type = "mobilisation">mobilisés</trait> à leur profit. L'Etat paiera. </p>
+       <p>Nous sommes en <trait type = "combat">guerre</trait>, oui. Le pays accompagnera dans cette période les régions les plus touchées 
+       aujourd’hui comme celles qui le 
+       seront demain. A ce titre, je veux assurer les habitants et 
+       les <roleName type = "santé" nymRef = "soignant">personnels soignants</roleName> 
+       du <placeName nymRef = "Grand-Est"> <region nymRef = "Grand-Est">Grand Est </region></placeName> 
+       que nous serons au rendez-vous pour les appuyer face à l’afflux de patients et à la saturation des hôpitaux. 
+       Je sais ce qu’ils vivent depuis des jours et des jours, nous sommes avec eux.
+       J'ai décidé pour cela qu’un hôpital de campagne du service de santé des armées serait déployé dans les jours à venir 
+       en <placeName nymRef = "Alsace"> <region nymRef = "Alsace">Alsace</region></placeName>.  <trait type = "combat" subtype = "militaire">Les armées 
+       apporteront aussi leur concours</trait> pour déplacer les malades des régions les plus affectées 
+       et ainsi réduire la congestion des hôpitaux de certains territoires. 
+      <p>Nous sommes en <trait type = "combat">guerre</trait>. Comme je vous l’ai dit jeudi, pour nous protéger et contenir la dissémination du virus mais aussi préserver 
+        nos systèmes de soins, nous avons pris ce matin entre <placeName type = 'nationalité' nymRef = 'Europe'>Européens</placeName> une décision commune. 
+        Dès demain midi, les frontières 
+        à l’entrée de l’ <orgName nymRef = "EU">Union<placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'> européenne </bloc></placeName></orgName> et 
+        de l’<placeName nymRef = "Schengen"> <bloc nymRef = "Schengen">espace Schengen</bloc></placeName> seront fermées. 
+        Concrètement, tous les voyages entre les pays <placeName type = 'nationalité' >non-européens</placeName> 
+        et l’ <orgName nymRef = "EU">Union<placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'> européenne </bloc></placeName></orgName>
+        seront suspendus pendant <num type="cardinal" val="30">30</num> jours. 
+        Les <placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName>et les <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>
+        qui sont actuellement à l’étranger et souhaitent rentrer pourront bien entendu rejoindre leur pays. 
+        <lb/>Nous devons prendre cette décision parce que je vous demande ce soir d’importants <trait type = "combat">efforts</trait> et que nous devons, dans la durée, 
+        nous protéger. Je veux dire à tous nos compatriotes qui vivent à l’étranger que là aussi, en bon ordre, ils doivent se rapprocher des
+        ambassades et consulats et que nous organiserons, pour celles et ceux qui le souhaitent et là où c’est nécessaire, leur rapatriement.
+        Vous l’aurez compris, vous le pressentiez, cette crise sanitaire sans précédent aura des conséquences humaines, sociales et économiques 
+        majeures. C’est aussi ce défi que nous devons mener. </p>
+      <p>Je vous demande des <trait type = "combat">sacrifices</trait> pour ralentir l’épidémie. Jamais ils ne doivent mettre en cause l’aide aux plus fragiles, la pérennité 
+        d’une entreprise, les moyens de subsistance des <roleName type = "profession" nymRef = "salarié">salariés</roleName> 
+        comme des <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>.
+        Pour les plus précaires, pour les plus démunis, 
+        pour les personnes isolées, nous ferons en sorte, avec les grandes associations, avec aussi les collectivités locales et leurs services, 
+        qu’ils puissent être nourris, protégés, que les services que nous leur devons soient assurés. </p>
+      <p>Pour la vie économique, pour ce qui concerne la <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName>,
+       aucune entreprise, quelle que soit sa taille, ne sera livrée au risque de faillite. Aucune <placeName type = 'nationalité' nymRef = 'France'>Française</placeName>, 
+       aucun  <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>, ne sera laissé sans ressources. </p>
+      <p>S’agissant des entreprises, nous mettons en place un dispositif exceptionnel de report de charges fiscales et sociales, de soutien au 
+        report d’échéances bancaires et de garanties de l’Etat à hauteur de <num type = "cardinal" val="300 000 000 000">300 milliards</num> d’euros pour tous les 
+        prêts bancaires contractés auprès 
+        des banques. Pour les plus petites d’entre elles et tant que la situation durera, celles qui font face à des difficultés n’auront rien à débourser, 
+        ni pour les impôts, ni pour les cotisations sociales. Les factures d’eau, de gaz ou d’électricité ainsi que les loyers devront être suspendus. </p>
+      <p>En outre, afin que personne ne soit laissé sans ressources, pour les <roleName type = "profession" nymRef = "salarié">salariés</roleName>,
+       le dispositif de chômage partiel sera massivement élargi, 
+        comme je vous l’avais annoncé jeudi dernier et comme le Gouvernement a commencé à le préciser. 
+        Pour les  <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>, 
+        <roleName type = "profession" nymRef = "commerçant">commerçants</roleName>, 
+         <roleName type = "profession" nymRef = "artisan">artisans</roleName>, un fonds de solidarité sera créé, abondé par l’Etat, 
+        et auquel le <roleName type = "politique" nymRef = "premier ministre">Premier ministre</roleName> 
+        proposera aux régions aussi de contribuer.
+        Le Gouvernement, dès demain, précisera toutes ces mesures. Elles seront en fonction des besoins, des réalités économiques, 
+        des nécessités secteur par secteur, évidemment adaptées. Nous serons au rendez-vous pour que notre économie soit préservée 
+        dans cette période si dure et pour que l’ensemble des <roleName type='profession' nymRef = "travailleur">travailleuses et des travailleurs</roleName> 
+        puissent avoir cette sécurité aussi en termes 
+        de pouvoir d’achat, de continuité de leur vie. </p>
+      <p>Mes chers <roleName>compatriotes</roleName>, la <placeName nymRef = 'France'> <region nymRef = 'France'>France</region></placeName> vit un moment
+        très difficile. Nul ne peut en prévoir précisément la durée. À mesure que les jours suivront les jours, que les problèmes succéderont
+        aux problèmes, il faudra, en lien avec les éclairages donnés par les <roleName type='expertise' nymRef = "scientifique">scientifiques </roleName>, 
+        des expériences de terrain, il faudra nous adapter.
+        Nous allons continuer aussi, pendant cette période, de travailler et de progresser sur les traitements. 
+        <lb/>Je sais le <trait type = "laudatif">dévouement</trait> de plusieurs équipes partout sur notre territoire avec les <num type = "ordinal" val = "1st">premiers</num> 
+        <trait type = " émotion" nymRef = "espoir">espoirs</trait> qui naissent, et nous continuerons 
+        aussi d’avancer sur le vaccin. Régulièrement, je m’adresserai à vous. Je vous dirai à chaque fois, comme je l’ai fait, comme le Gouvernement 
+        le fait, la vérité sur l’évolution de la situation. </p>
+      <p>J'ai une certitude : plus nous <trait type = "mobilisation">agirons ensemble</trait> et vite, plus nous <trait type = "combat">surmonterons cette épreuve</trait>. 
+      Plus nous <trait type = "mobilisation">agirons en citoyens</trait>, plus
+        nous <trait type = "mobilisation">ferons preuve de la même <trait type = "laudatif">force d’âme</trait>, 
+        de la même <trait type = "laudatif">abnégation patriote </trait></trait> que démontrent aujourd’hui 
+        nos <roleName type='santé' nymRef = "soignant">personnels soignants</roleName>, 
+        nos <roleName type='profession' nymRef = "pompier">sapeurs-pompiers</roleName>, 
+        l’ensemble des <roleName type='profession' nymRef = "sécurité civile">acteurs de la sécurité civile</roleName>,
+         plus vite nous sortirons de cette vie au ralenti. Nous y arriverons, 
+        mes chers compatriotes, <trait type = "mobilisation">en étant unis, solidaires</trait>. 
+        <trait type = "mobilisation">Je vous demande d’être responsables tous ensemble</trait> 
+        et de ne céder à aucune <trait type = " émotion" nymRef = "peur">panique</trait>, 
+        d’accepter ces contraintes, de les porter, de les expliquer, de vous les appliquer à vous-mêmes, nous nous les appliquerons tous, il n’y aura 
+        pas de passe-droit, mais, là aussi, de ne céder ni à la <trait type = " émotion" nymRef = "peur">panique</trait>, ni au désordre. 
+        Nous <trait type = "combat">gagnerons</trait>, mais cette période nous aura beaucoup
+        appris. Beaucoup de certitudes, de convictions sont balayées, seront remises en cause. Beaucoup de choses que nous pensions 
+        impossibles adviennent. Ne nous laissons pas impressionner. Agissons avec force mais retenons cela : le jour d’après, quand nous aurons 
+        <trait type = "combat">gagné</trait>, ce ne sera pas un retour au jour d’avant. 
+        Nous serons plus forts moralement, nous aurons appris et je saurai aussi avec vous en tirer toutes les conséquences, toutes les conséquences. </p>
+      <p>Hissons-nous individuellement et collectivement à la hauteur du moment. </p>
+      <p>Je sais mes chers <roleName>compatriotes</roleName> pouvoir <trait type = "mobilisation">compter sur vous</trait>. </p>
+      <p>Vive la République, vive la  <placeName nymRef = 'France'> <country nymRef = 'France'>France</country></placeName> ! </p>
+      </p>
+      </body>
+  </text>
+</TEI>

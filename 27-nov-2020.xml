@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-11-27T10:38:54+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+    
+      <titleStmt>
+        <title>Adresse aux Français du 27 novembre 2020</title>
+        <author></author>
+        <respStmt>
+        <resp>Encodage en XML-TEI</resp>
+        <name > Emma BOSSY </name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Edition étudiante pour le cours de M2HN Recherches actuelles en HN </edition>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>Université de Lyon</publisher>
+        <pubPlace> Lyon </pubPlace>
+      </publicationStmt>
+      
+      <sourceDesc> Retranscription disponible sur le site de l'Elysée</sourceDesc> 
+    </fileDesc>
+    
+    <profileDesc>
+      <creation>
+        <date when="[2020-11-27]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+
+        <p><placeName type = "nationalité" nymRef = "France">Françaises</placeName>, <placeName type = "nationalité" nymRef = "France">Français</placeName>,
+<lb/>
+<lb/>Mes chers compatriotes,</p>
+        <p>Quand, le <date when = "2020-10-28">28 octobre</date>, je me suis adressé à vous, je m’étais engagé à vous rendre compte 
+        de l’évolution de l’épidémie et des décisions qui pouvaient être prises en conséquence.</p>
+        <p>Un mois plus tard, où en sommes-nous ?</p>
+        <p>Le nombre de cas positifs journaliers à la COVID-19 a fortement reculé. 
+        Il a été supérieur à <num type = "cardinal" val ="60000">60 000</num>, il s’est établi la semaine dernière à <num type = "cardinal" val = "20000">20 000</num> cas 
+        par jour en moyenne. </p>
+        <p>Après avoir atteint <num type = "cardinal" val = "33500">33 500</num> patients hospitalisés le <date when ="2020-11-16">16 novembre</date>, 
+        soit plus que lors de la <num type = "cardinal" val = "1st">première</num> vague, nous avons aussi commencé une lente décrue. 
+        Le nombre de personnes en réanimation du fait de la COVID-19 est passé de <num type = "cardinal" val = "4900">4 900</num> 
+        le <date when = "2020-11-16">16 novembre</date> à <num type = "cardinal" val = "4300">4 300</num> aujourd’hui. 
+        De ces données, il ressort que le pic de la <num type = "ordinal" val = "2nd">seconde</num> vague de l’épidémie est passé.  </p>
+        <p>Lors de ma dernière intervention, nous redoutions des chiffres bien pires encore. Et nous les avons évités.  
+        D’une part car nos <trait type = "combat">efforts</trait>, vos <trait type = "combat">efforts</trait>, ont payé. 
+        <trait type = "mobilisation">L’esprit civique dont vous avez fait preuve a été efficace</trait>. 
+        Et d’autre part, parce que nous avons appris à mieux prendre en charge et traiter les patients atteints pour éviter certaines formes graves 
+        qui auraient frappé nos concitoyens et pesé encore plus sur nos services de réanimation.</p>
+        <p>Je veux ici saluer le <trait type = "laudatif">dévouement</trait> des <roleName type = "santé" nymRef = "soignant">soignants</roleName> qui,
+         en ville comme à l’hôpital, ont tenu, coopéré, innové, malgré la fatigue et la <trait type = " émotion" nymRef = "lassitude">lassitude</trait>. 
+        Je salue tous les <roleName type='expertise' nymRef = "professionel">professionnels</roleName>, 
+        les <roleName type = "profession">associatifs</roleName>, les <roleName type = "profession">bénévoles</roleName> 
+        qui ont aussi ici aidé. </p>
+        <p>C’est <trait type = "mobilisation">tous ensemble que nous avons obtenu ces résultats</trait>.</p>
+        <p>C’est <trait type = "mobilisation">tous ensemble que nous avons sauvé des vies</trait>.</p>
+        <p>Si nous avons réussi à ralentir la circulation du virus, nous ne devons pas perdre de vue nos autres préoccupations sanitaires. 
+        Il nous faut d’abord continuer de traiter, parfois de reprendre les soins pour les autres patients. 
+        Il nous faut aussi nous préparer à <trait type = "combat">faire face</trait> aux 
+        conséquences de long terme liées au virus.</p>
+        <p>Des <roleName type='expertise' nymRef = "scientifique">scientifiques</roleName> 
+        et des <roleName type='expertise' nymRef = "expert">experts</roleName>, 
+        travaillent d’ores et déjà, avec l’<orgName nymRef="Assurance maladie">Assurance maladie</orgName> à un suivi de long terme des malades de la COVID-19.</p>
+        <p>Je demande aussi au Gouvernement de préparer une <trait type = "combat">stratégie</trait> pour prendre en compte les conséquences psychologiques de
+         la pandémie et des différents confinements. Je sais en particulier combien les personnes âgées, à domicile comme dans les maisons de retraite, 
+         combien les personnes en situation de handicap, ont souffert et souffrent encore de leur isolement et combien nous devons les accompagner dans la durée.</p>
+        <p>Il nous faut enfin redoubler de vigilance pour prévenir et répondre aux violences faites aux femmes et aux enfants durant cette période de confinement.</p>
+        <p>Certes, donc, nous avons freiné la circulation du virus. Mais il demeure très présent, en <placeName nymRef = "France">France</placeName> 
+        comme dans tout <placeName nymRef = "Northern hemisphere">l’hémisphère Nord</placeName>, en <placeName nymRef = "Europe">Europe</placeName>,
+         aux <placeName nymRef = "USA">Etats-Unis</placeName>, 
+        au <placeNale nymRef = "Canada">Canada</placeNale>, en <placeName nymRef = "Russia">Russie</placeName>, où il circule encore très fortement. </p>
+        <p>Aujourd’hui, nous avons atteint <num type = "cardinal" val = "50000">50 000</num> décès dus à l’épidémie. 
+        Et si la situation s’améliore globalement dans l’<placeName nymRef='Metropolitan France'> <region nymRef='Metropolitan France'>hexagone </region></placeName> 
+        et nos <placeName nymRef = "DOM-TOM"> <region nymRef = "DOM-TOM">Outre-mer</region></placeName>, 
+        dans certaines régions, elle demeure très préoccupante.</p>
+        <p>Et nous avons encore devant nous plusieurs semaines pour atteindre les objectifs que j’avais fixés qui permettent de contrôler 
+        l’épidémie et donc de stabiliser le nombre de contaminations autour de <num type = "cardinal" val = "5000">5000</num> 
+        personnes par jour et d’avoir entre <num type = "cardinal" val = "2500">2500</num> à <num type = "cardinal" val = "3000">3000</num> personnes
+         en lits de réanimation. </p>
+        <p>Aussi, je m’adresse à vous ce soir pour vous dire qu’il nous faut poursuivre nos <trait type = "combat">efforts</trait>.</p>
+        <p>Quels sont nos objectifs ? </p>
+        <p>Sauver des vies au maximum, maîtriser l’épidémie, tout en prenant en compte à chaque fois, au mieux, les autres malades, 
+        l’isolement de certains, notre économie, et ce qui fait la vie : l’éducation, la culture, le sport, notre art de vivre. </p>
+        <p>Adapter la réponse aux territoires, en particulier pour nos <placeName nymRef = "DOM-TOM"> <region nymRef = "DOM-TOM">Outre-mer</region></placeName> 
+        où des plans spécifiques par territoire seront prévus.</p>
+        <p>Pour ce faire, il nous faut continuer pendant plusieurs semaines à éviter nombre d’activités dans des lieux clos 
+        qui accélèrent la diffusion du virus, et limiter au maximum les rassemblements.</p>
+        <p>A partir de là, je veux pouvoir ce soir pouvoir nous fixer un cap, un calendrier et esquisser des perspectives.
+<lb/>  
+<lb/>Une nouvelle étape s’ouvrira à partir du <date when = "2020-11-28">samedi 28 novembre</date> matin.</p>
+        <p>Il y a d’abord ce qui ne va pas changer. </p>
+        <p>Le confinement adapté et donc le système de l’attestation resteront en vigueur car c’est ce qui nous a permis d’obtenir ces bons résultats.</p>
+        <p>Il faudra donc continuer à rester chez soi, à télétravailler quand cela est possible, à renoncer aux réunions privées, aux rassemblements familiaux,
+         à tous les déplacements non nécessaires. </p>
+        <p>Mais dès samedi prochain matin, plusieurs changements seront réalités. </p>
+        <p>- D’abord les déplacements pour motif de promenade ou activité physique en extérieur seront désormais 
+        permis dans un rayon de <num type = "cardinal" val = "20">20</num> kilomètres et pour <num type = "cardinal" val = "3">trois</num> heures.</p>
+        <p>- Les activités extra-scolaires en plein air seront à nouveau autorisées.</p>
+        <p>- Pour les cultes, les offices seront à nouveau permis dans la stricte limite de <num type = "cardinal" val = "30">30</num> personnes.</p>
+        <p>- Enfin – et je sais combien l’attente est grande et combien cela participe à notre quotidien, à la vie de nos centres-villes, 
+        de nos centre-bourgs, enfin donc, tous les commerces pourront rouvrir et les services à domicile reprendre, 
+        mais dans le cadre d’un protocole sanitaire strict, qui a été négocié avec l’<roleName type='expertise' nymRef = "professionel">ensemble des professionnels</roleName> que je veux ici remercier. </p>
+        <p>- Les commerces et les services pourront donc réouvrir, selon ces règles, jusqu’à <num type ="cardinal" val="21">21</num> heures au plus tard. 
+        Les librairies, les disquaires, les bibliothèques et archives pourront aussi réouvrir dans ces conditions. </p>
+        <p>La <num type = "cardinal" val = "2nd">deuxième</num> étape, ce sera le <date when = "2020-12-15">15 décembre</date>. </p>
+        <p>Le <date when = "2020-12-15">15 décembre</date>, si nous sommes bien arrivés autour des <num type = "cardinal" val = "5000">5000</num> contaminations 
+        par jour et environ <num type = "cardinal" val = "2500">2500</num> à <num type = "cardinal" val = "3000">3000</num> personnes en réanimation, 
+        nous pourrons alors franchir un nouveau cap. Alors le confinement pourra être levé.</p>
+        <p></p>
+        <p>Nous pourrons donc à nouveau nous déplacer, sans autorisation, y compris entre régions, 
+        et passer Noël en famille. Il faudra au maximum limiter les déplacements inutiles. Souffler et se retrouver, oui. 
+        Mais j’en appelle à votre <trait type = "mobilisation">sens des responsabilités</trait> : il ne s’agira pas, à coup sûr, de vacances de Noël comme les autres.</p>
+        <p>Les activités extrascolaires en salle, pour l’accueil des enfants durant les fêtes, seront à nouveau autorisées avec des règles strictes. </p>
+        <p>Les salles de cinéma, les théâtres, les musées pourront reprendre leur activité, toujours dans le cadre des protocoles sanitaires qui ont été négociés 
+        et un système d’horodatage permettra d’organiser les représentations en fin de journée. Je veux ici dire combien je remercie 
+        et combien nous soutenons tous les <roleName type='expertise' nymRef = "culture">acteurs de la culture</roleName>, à qui, je le sais, nous avons tant demandé, 
+        mais qui ont tenu, qui ont créé, innové, su trouver de nouveaux publics dans ce contexte si difficile. 
+        Nous avons besoin d’eux. Nos concitoyens ont besoin en effet de pouvoir avoir une vie, si je puis dire, et des activités au maximum, 
+        mais la culture est essentielle à notre vie de citoyennes et de citoyens libres.</p>
+        <p>Des contraintes fortes demeureront toutefois durant cette période : les grands rassemblements seront interdits 
+        ainsi que tous les événements festifs dans les salles à louer ; tous les lieux, qui comme les parcs d’attraction, les parcs d’expositions, 
+        sont susceptibles de rassembler un grand nombre de personnes venant de régions différentes resteront fermés. 
+        De même, les bars, les restaurants, les discothèques, ne pourront réouvrir leurs portes malheureusement, durant cette période. </p>
+        <p>Concernant les stations de sports d’hiver, une concertation a été engagée par le Gouvernement 
+        avec les <roleName type = "politique" nymRef = "élu">élus locaux</roleName> et les <roleName type='expertise' nymRef = "professionel">professionnels</roleName> : 
+        les décisions seront finalisées très prochainement. Mais il me semble toutefois impossible d’envisager une ouverture pour les fêtes et 
+        bien préférable de privilégier une réouverture courant <date when = "2021-01">janvier</date> dans de bonnes conditions. 
+        Nous nous coordonnerons sur ce point avec nos voisins <placeName type = "nationalité" nymRef = "Europe">européens</placeName>.</p>
+        <p>La <trait type = "expertise">logique</trait> de toutes ces décisions est la même : au maximum, limiter toutes les activités qui multiplient les rassemblements, 
+        conduisent les gens à se rassembler sans protection dans des lieux clos et permettre progressivement 
+        de réouvrir les activités où l’on peut se protéger et où les distances, les gestes barrières sont possibles. </p>
+        <p>Partout sur le territoire, durant cette période donc, à partir du <date when = "2020-12-15">15 décembre</date>, 
+        un couvre-feu de <num type = "cardinal" val = "21">21</num> heures à <num type = "cardinal" val = "7">7</num> heures du matin sera mis en place. 
+        Nous pourrons circuler librement les soirs des <date when = "2020-12-24">24</date> et <date when = "2020-12-31">31 décembre</date>, 
+        pour partager ces moments en famille, mais les rassemblements sur voie publique ne seront pas tolérés.  </p>
+        <p>Durant toute cette période, <trait type = "mobilisation">vous aurez un rôle central pour notre réussite collective</trait> : les réunions privées doivent 
+        au maximum limiter le nombre d’adultes ensemble dans une même pièce à un même moment et nous devons tous veiller 
+        à respecter les règles sanitaires entre nous pour protéger chacun.</p>
+        <p>L’étape suivante sera pour le <date when = "2021-01-20">20 janvier</date>.</p>
+        <p>En effet, à cette date, nous aurons le recul suffisant au retour des fêtes de fin d’année. 
+        Vous le savez, il nous faut toujours une quinzaine de jours pour voir exactement les conséquences de la modification de nos comportements. 
+        Et donc ; c’est autour du <date when = "2021-01-20">20 janvier</date> que nous pourrons alors prendre, si cela est possible, de nouvelles décisions d’ouverture. </p>
+        <p>Si le nombre de contaminations demeure en-dessous de <num type = "cardinal" val = "5000">5000</num> cas par jour, 
+        les salles de sport et les restaurants pourront réouvrir et le couvre-feu pourra être décalé.</p>
+        <p>Les lycées, qui bien souvent aujourd’hui fonctionnent par demi-classe, pourront à ce moment-là être pleinement réouverts 
+        avec la totalité des élèves présents durant les cours. <num type = "cardinal" val = "15">Quinze</num> jours plus tard, 
+        ce sont les universités qui pourront reprendre les cours avec, là aussi, une présence physique de tous les élèves.</p>
+        <p>Nous ferons ainsi le point tous les <num type = "cardinal" val = "15">15</num> jours sur la situation sanitaire 
+        et déciderons alors, si nous pouvons prendre des mesures supplémentaires d’ouverture ou si, au contraire,
+         il nous faut revenir en arrière pour prévenir tout nouvel emballement de la propagation du virus.</p>
+        <p>Car nous devons tout faire pour éviter une <num type = "ordinal" val = "3rd">troisième</num> vague, 
+        tout faire pour éviter un <num type = "ordinal" val = "3rd">troisième</num> confinement. 
+        Pour cela et durant les mois qui viennent nous avons <num type = "cardinal" val = "3">trois</num> outils entre nos mains.</p>
+        <p>Le <num type = "ordinal" val = "1st">premier</num> c’est <trait type = "mobilisation">l’esprit de responsabilité de tous</trait>. </p>
+        <p>Nous ne sommes pas, <trait type = "mobilisation">vous n’êtes pas passifs</trait> durant cette crise. 
+        <trait type = "mobilisation">Nous avons tous un rôle à jouer</trait>. 
+        Durant les congés de fin d’année, nous allons tous retrouver nos proches. 
+        Nous nous en <trait type = " émotion">réjouissons</trait> évidemment et tous, dans ces moments-là, nous sommes tentés de baisser la garde, de relâcher la pression. 
+        Mais, si nous ne voulons pas subir demain un <num type = "ordinal" val = "3rd">troisième</num> confinement, nous devons redoubler de vigilance. </p>
+        <p>Protégeons nos proches, en particulier les plus vulnérables. Portons le masque, y compris à la maison lorsque nous sommes avec des amis 
+        ou avec des parents qui n’habitent pas au quotidien avec nous. Veillons à ne pas être trop nombreux à table. 
+        Appliquons scrupuleusement tous les gestes barrière - se laver les mains, respecter les distances, aérer toutes les heures les pièces.</p>
+        <p>C’est du bon sens et de l’exigence mais <trait type = "mobilisation">chacun de nous a entre ses mains une part de la solution</trait>. </p>
+        <p>Notre <num type = "ordinal" val = "2nd">second</num> outil, c’est la <trait type = "combat">stratégie</trait> « tester, alerter, protéger, soigner » 
+        que nous sommes en train de réorganiser pour la rendre beaucoup plus efficace. 
+        C’est à mes yeux l’outil le plus important dans les semaines et les mois qui viennent pour contrôler le virus. </p>
+        <p>Tester. Nous sommes comme vous le savez l’un des pays <placeName type = "nationalité" nymRef = "Europe">européens</placeName> qui teste le plus. 
+        Début <date when = "2021-01">janvier</date>, aucun test ne devra mettre plus de <num type = "cardinal" val = "24">24</num> heures 
+        entre la demande de test et son résultat. Ce sera vrai des tests PCR, que nous continuerons de déployer. 
+        Quant aux tests antigéniques, qui permettent d’obtenir un résultat en moins de <num type = "cardinal" val = "30">30</num> minutes, 
+        ils seront utilisés massivement en particulier pour les personnes qui ont des symptômes ou lorsqu’il faut dépister rapidement, 
+        par exemple dans une école ou dans une maison de retraite. En la matière, les innovations continuent de se poursuivre et 
+        permettront je l’<trait type = "émotion">espère</trait> de faire encore mieux et plus simplement.</p>
+        <p>Alerter. Nous devons dans les prochaines semaines améliorer notre organisation afin de casser beaucoup plus rapidement les
+         chaînes de contamination à la racine en identifiant plus complètement l’ensemble de ce qu’on appelle les « cas contact ». 
+         C’est-à-dire toutes celles et ceux qui ont été exposés à quelqu’un qui a la Covid-19. </p>
+        <p>L’application TousAntiCovid, que vous êtes près de <num type = "cardinal" val = "10 000 000">10 millions</num> à avoir téléchargé – 
+        et il faut continuer, est essentielle pour les identifier : utilisons-là au maximum dans les commerces et, lorsqu’ils ouvriront, dans les restaurants et les lieux de culture.
+         Partout où nous nous rassemblons. </p>
+        <p>Elle est une aide précieuse pour appuyer l’<orgName nymRef = "Assurance maladie">Assurance Maladie</orgName> : 
+        d’ores et déjà plus de <num type = "cardinal" val = "10 000">10 000</num> personnes appellent chaque jour les cas contact. 
+        Et nous allons continuer de former, d’engager de nouveaux volontaires pour encore nous améliorer. </p>
+        <p>Protéger. Je souhaite que le Gouvernement et le <orgName nymRef = "Parlement">Parlement</orgName> prévoient les conditions 
+        pour s’assurer de l’isolement des personnes contaminées, y compris de manière plus contraignante. 
+        Un vrai débat démocratique doit se tenir. Mais si nous voulons éviter un confinement, nous devons être plus contraignants à l’égard de celles et ceux qui ont le virus. 
+        Ces personnes seront accompagnées sur le plan matériel, sanitaire et psychologique. 
+        Cette nouvelle <trait type = "combat">stratégie</trait> associera, 
+        outre les services de l’Etat, les <roleName type = "politique" nymRef = "maire">maires</roleName> leurs services, 
+        comme les associations concernées.</p>
+        <p>Soigner, traiter. Beaucoup de progrès ont été faits et <trait type = "mobilisation">nous pouvons nous féliciter de la mobilisation</trait> 
+        de nos <roleName type = "santé" nymRef = "soignant">soignants</roleName>. 
+        Nous devons continuer d’améliorer la prise en charge et le traitement dès le diagnostic en médecine de ville et à l’hôpital pour réduire 
+        encore davantage les formes graves.</p>
+        <p>Le <num type = "ordinal" val = "3rd">troisième</num> outil, enfin, qui nous permettra de <trait type = "combat">faire face</trait>
+         au virus durant les prochaines semaines 
+        et les prochains mois et pour nous tous une formidable lueur d’<trait type = " émotion" nymRef = "espoir">espoir</trait> c’est le vaccin.</p>
+        <p>Notre <trait type = "combat">stratégie</trait> repose sur plusieurs vaccins. Certains seront disponibles 
+        dès la fin <date when ="2020-12">décembre</date> -- début <date when ="2021-01">janvier</date> et 
+        une <num type = "cardinal" val = "2nd">seconde</num> génération arrivera au printemps.</p>
+        <p>Notre plan en la matière est clair.</p>
+        <p>D’abord, <trait type = "combat">sécuriser</trait> le nombre de doses. Nous l’avons fait avec l’<orgName nymRef = "EU">Union Européenne</orgName> et 
+        la <orgName nymRef = "European Commision">Commission</orgName>, en achetant auprès des producteurs, 
+        en nous mettant en capacité d’en produire au maximum en <placeName nymRef = "Europe">Europe</placeName> et 
+        le nombre de doses étant réparti en fonction de la population de chaque Etat membre. 
+        Les <num type = "ordinal" val = "1st">premiers</num> vaccins, sous réserve des résultats des essais cliniques, pourront être administrés 
+        dès la validation des autorités sanitaires <trait type = "expertise">compétentes</trait>.</p>
+        <p>Ensuite, garantir la sécurité sanitaire. Un <trait type = "expertise">comité scientifique</trait> sera chargé du suivi de la vaccination. 
+        Un collectif de citoyens sera aussi mis en place pour associer plus largement la population. 
+        Je tiens à ce que celle-ci se fasse dans un cadre totalement transparent. La vaccination doit se faire de manière claire, transparente, 
+        en partageant à chaque étape toutes les informations : ce que nous savons, comme ce que nous ne savons pas.  
+        Je veux aussi être clair : je ne rendrai pas la vaccination obligatoire.</p>
+        <p>Enfin, nous allons organiser une campagne de vaccination rapide et massive au plus près des  
+        personnes. <orgName nymRef = "HAS">La Haute Autorité de Santé</orgName> présentera dès les jours à venir ses recommandations. 
+        Les autorités sanitaires, avec l’Etat, les collectivités locales, définiront les modalités pratiques du déploiement des vaccins, 
+        avec les hôpitaux, les maisons de retraite et l’ensemble des <roleName type = "santé" nymRef = "médecin">médecins de ville</roleName>. 
+        Nous commencerons vraisemblablement, dès fin-<date when = "2020-12">décembre</date>-début <date when = "2021-01">janvier</date>, 
+        sous réserve des validations par les autorités sanitaires, par vacciner les personnes les plus fragiles et donc les plus âgées. 
+        Des étapes successives seront présentées afin, progressivement, de permettre la vaccination du plus grand nombre.</p>
+        <p>Vous le voyez, le retour à la normale ne sera donc pas pour demain. </p>
+        <p>Mais nous pouvons, j’en ai la conviction, maîtriser l’épidémie dans la durée. Nous avons les moyens, collectivement, 
+        de réussir à maîtriser puis <trait type = "combat">vaincre</trait> ce virus. 
+        <trait type = "mobilisation">Chacun a un rôle à jouer</trait>, <trait type = "mobilisation">chacun a une responsabilité à tenir</trait>.</p>
+        <p>Nous avons dans le même temps à <trait type = "combat">faire face</trait> à une crise économique et sociale inédite. 
+        Elle est la conséquence du <num type = "ordinal" val = "1st">premier</num> confinement et de ce que nous sommes en train de vivre. 
+        Je vous l’annonçais dès le mois de <date when = "2020-07">juillet dernier</date> : la crise va vraisemblablement encore s’aggraver, 
+        mais nous avons une réponse à apporter. Nous l’avons fait dès le début.</p>
+        <p>En effet, depuis le <num type = "ordinal" val = "1st">premier</num> jour, nous agissons. </p>
+        <p>Pour les <roleName type = "profession" nymRef = "salarié">salariés</roleName>, avec le chômage partiel.</p>
+        <p>Pour les plus précaires, avec des aides ponctuelles et la prolongation des droits, en particulier pour les chômeurs.</p>
+        <p>Pour les entreprises et les indépendants, avec notamment les prêts garantis par l’Etat, les annulations et reports de charge, le fonds de solidarité.</p>
+        <p>« Quoiqu’il en coûte » n’a pas seulement été une formule mais bien des actes et une réalité.
+<lb/>Nous avons renforcé cette réponse lors de la <num type = "ordinal" val = "2nd">deuxième</num> vague, 
+et je veux ici remercier le <roleName type = "politique" nymRef = "maire">Premier ministre</roleName> et l’ensemble du gouvernement qui en concertant, en travaillant, 
+ont permis de compléter les choses.</p>
+        <p>De nouvelles aides sociales ont été décidées : <num type = "cardinal" val = "150">150</num> euros seront versés en fin de semaine 
+        aux bénéficiaires du RSA et de l’allocation de solidarité spécifique, aux <roleName type = "profession" nymRef = "étudiant">étudiants</roleName> boursiers
+         et aux jeunes de moins de <num type = "cardinal" val = "25">25</num> ans
+         non-étudiants touchant les allocations logement. <num type = "cardinal" val = "100">100</num> euros par enfant seront versés pour les familles
+          bénéficiant des APL. Au total, <num type = "cardinal" val = "4 000 000">4 millions</num> de familles et <num type = "cardinal" val = "1 300 000">1 300 000</num> jeunes
+           seront aidés.</p>
+        <p>Les aides aux entreprises ont été significativement renforcées en décalant les échéances des prêts garantis par l’Etat, 
+        en exonérant à nouveau des charges, en augmentant à <num type = "cardinal" val = "10 000">10 000</num> euros le fonds de solidarité notamment 
+        pour ceux à qui, <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>, 
+        <roleName type = "profession" nymRef = "commerçant">commerçants</roleName>, entreprises, 
+        nous avons demandé -- j’en ai conscience -- beaucoup d’<trait type = "combat">efforts</trait>, beaucoup de <trait type = "combat">sacrifices</trait>, 
+        alors même qu’ils <trait type = " émotion" nymRef = "peur">craignaient</trait> de perdre le fruit d’une vie de travail. </p>
+        <p>Ils sont tous essentiels, tous, à la vie de notre Nation.</p>
+        <p><lb/>Dès les prochains jours, nous allons encore compléter ces aides.</p>
+        <p>En plus des dispositifs déjà existants, les restaurants, les bars, les salles de sport, les discothèques, tous les établissements 
+        qui resteront fermés administrativement, se verront verser quelle que soit leur taille, <num type = "percentage" val = "20%">20%</num> 
+        de leur chiffre d’affaires de l’année <date when = "2019">2019</date> si cette option est préférable pour eux 
+        aux <num type = "cardinal" val = "10 000">10 000</num> euros du fonds de solidarité.</p>
+        <p>Je sais les <trait type = "combat">sacrifices</trait> que nous avons demandés à beaucoup de ces <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>.</p>
+        <p>Je sais combien nos  <roleName type = "profession" nymRef = "restaurateur">restaurateurs</roleName>,
+         les  <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName> que nous avons fermés administrativement, veulent surtout travailler. 
+        Ils ne veulent pas être aidés ils veulent pouvoir continuer à se lever tôt le matin et à faire ce qui est leur travail et en même temps leur passion. </p>
+        <p>J’ai conscience du <trait type = "combat">sacrifice</trait> que nous leur demandons. C’est pourquoi nous allons apporter encore cette aide rexceptionnelle 
+        jusqu’au <date when = "2021-01-20">20 janvier prochain</date>, je l’<trait type = "émotion">espère</trait>, date à laquelle nous pourrons rouvrir. </p>
+        <p>Les <roleName type = "profession" nymRef = "saisonnier">saisonniers</roleName>, 
+        les extras qui n’ont plus d’engagements depuis des mois, les précaires qui travaillaient les années précédentes 
+        mais ne retrouvent plus d’emploi, les jeunes qui n’arrivent à trouver ni emploi étudiant, ni <num type = "ordinal" val = "1st">premier</num> emploi 
+        trouveront une réponse exceptionnelle à leur situation.</p>
+        <p>Le Gouvernement présentera cette réponse dans les prochains jours. Le plan « un jeune, une solution » fera l’objet de moyens accrus et 
+        j’invite tous les jeunes à se renseigner sur la plateforme prévue à cet effet.</p>
+        <p>Toutes ces décisions sont le fruit de larges consultations menées 
+        par le <roleName type = "politique" nymRef = "premier ministre">Premier ministre</roleName> et son Gouvernement
+         avec les partenaires sociaux, les <roleName type = "politique" nymRef = "élu">élus locaux</roleName> et les forces politiques. 
+         Elles sont <trait type = "expertise">éclairées par la science</trait>. 
+         Il y a certes beaucoup de choses que nous ne maîtrisons pas mais j’assume pleinement les décisions que je vous expose aujourd’hui 
+         et j’assume de les prendre pour vous protéger au maximum dans ce contexte exceptionnel.</p>
+        <p>Mes chers compatriotes,</p>
+        <p>J’ai conscience de vous avoir donné beaucoup de détails ce soir mais je pense que c’était nécessaire pour vous permettre 
+        de vous figurer dans les prochaines semaines comment nous allons nous organiser si, <trait type = "mobilisation">chacun, nous tenons notre rôle</trait>.</p>
+        <p>Il y a toujours beaucoup d’incertitudes et il nous faut garder en la matière beaucoup d’humilité, ce virus nous l’a appris.</p>
+        <p>Mais je ferai tout ce que je peux pour <trait type = "combat">me battre</trait> à vos côtés, pour vous protéger et réussir à maîtriser cette épidémie.</p>
+        <p>Cette <trait type = "combat">épreuve</trait> qui dure depuis bientôt un an est difficile pour chacun de nous. Et nous ne sommes pas au bout. 
+        Et je ne veux pas que nous nous laissions aller ni à la <trait type = " émotion" nymRef = "résignation">résignation</trait>,
+         ni à la <trait type = " émotion" nymRef = "colère">colère</trait>.</p>
+        <p>Je suis optimiste car toute crise comporte une part de progrès, une part d’<trait type = " émotion" nymRef = "espoir">espérance</trait>.</p>
+        <p>Regardez comme ces <num type = "cardinal" val = "9">neuf</num> derniers mois nous ont permis aussi de réussir ce que longtemps 
+        nous avions pensé impossible. Nous avons su rendre notre Etat plus efficace pour <trait type = "combat">faire face</trait> à l’urgence, sanitaire comme économique. 
+        Nous avons collectivement transformé l’hôpital, notre système de soin, nous nous sommes appuyés sur le numérique pour rapprocher 
+        les <roleName type = "profession" nymRef = "commerçant">commerçants</roleName> 
+        des citoyens dans les territoires, pour continuer à travailler, à apprendre, à soigner. Nous avons fait preuve d’une capacité d’innovation, 
+        d’un sens de l’inventivité, qui seront décisifs pour construire le futur et <trait type = "combat">affronter</trait> les crises qui viennent. 
+        Nous avons été solidaires comme jamais. Nous avons aussi identifié certaines de nos faiblesses : 
+        une organisation imparfaite, trop de bureaucratie, parfois un <trait type = "mobilisation">sens des responsabilité inégale</trait>, 
+        un manque de souveraineté parfois aussi pour certaines de nos productions.</p>
+        <p>Dans les prochains mois, il nous faudra consolider ces forces que parfois nous ne soupçonnions pas et corriger ces vulnérabilités 
+        que parfois nous ne voulions pas voir. </p>
+        <p>Pour ce faire, nous devrons <trait type = "expertise">nous en remettre au savoir et à la science</trait>. 
+        <trait type = "expertise">Ne jamais céder au complotisme, à l’obscurantisme, au relativisme</trait>.</p>
+        <p>Nous devrons continuer à innover, à créer, à entreprendre. 
+        C’est <trait type = "laudatif">la force de l’esprit <placeName type = "nationalité" nymRef = "France">français</placeName></trait>. 
+<lb/>Nous aurons à redresser notre économie tout à la fois en investissant, en travaillant et en étant solidaires. 
+A ce titre le plan de relance de <num type = "cardinal" val = "100 000 000 000">100 milliards</num> d’euros permet de préparer l’avenir 
+de notre économie en créant des emplois dans les secteurs nouveaux, en les développant. </p>
+        <p>Mais pour les semaines à venir <trait type = "mobilisation">nous devons chacune, chacun, à la Nation, l’esprit de responsabilité</trait>. 
+        Nous nous devons les uns aux autres aussi beaucoup de bienveillance.</p>
+        <p>Les esprits sont parfois fatigués, les débats s’échauffent.</p>
+        <p>Et dans cette période, nous ne devons pas nous laisser nous <trait type = "émotion">emporter</trait>.</p>
+        <p><trait type = "mobilisation">Tenons-nous ensemble autour de nos valeurs, autour de notre Histoire, dans cet attachement à notre démocratie</trait>, 
+        à notre <trait type = "laudatif">humanisme</trait> qui demeurent, aujourd’hui comme hier, nos plus sûrs atouts.</p>
+        <p>Alors, nous pourrons inventer un nouvel avenir <placeName type = "nationalité" ymRef = "France">français.</placeName></p>
+        <p>Mes chers compatriotes, une nouvelle fois nous serons, j’en ai la certitude, au rendez-vous des défis des semaines et des mois qui viennent. </p>
+        <p>Notre génération a ensemble à <trait type = "combat">vaincre</trait> cette épidémie, à <trait type = "combat">affronter</trait> le terrorisme, 
+        à <trait type = "combat">affronter</trait> la crise climatique et celle des inégalités.</p>
+        <p>Aujourd’hui, <trait type = "mobilisation">nous tenons ensemble</trait>.</p>
+        <p>Demain, <trait type = "mobilisation">nous <trait type = "combat">vaincrons</trait> ensemble</trait>.</p>
+        <p>Vive la République.</p>
+        <p>Vive la <placeName nymRef = "France">France</placeName>.</p>
+    </body>
+  </text>
+</TEI>

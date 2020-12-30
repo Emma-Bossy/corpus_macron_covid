@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../Teinte/tei2html.xsl"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!--Odette: 2020-10-27T14:00:12+01:00-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Adresse aux Français du 14 juin 2020</title>
+        <author></author>
+        <respStmt>
+          <resp>Encodage en XML-TEI</resp>
+          <name > Emma BOSSY </name>
+        </respStmt>
+      </titleStmt>
+
+      <editionStmt>
+        <edition>Edition étudiante pour le cours de M2HN Recherches actuelles en HN</edition>
+        <date>novembre 2020</date>
+      </editionStmt>
+
+      <publicationStmt>
+        <publisher>Université de Lyon</publisher>
+        <pubPlace>Lyon </pubPlace>
+      </publicationStmt>
+
+      <sourceDesc> Retranscription disponible sur le site de l'Elysée </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date when="[2020-10-27]"/>
+      </creation>
+      <langUsage>
+        <language ident="fr"/>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p> <placeName type = 'nationalité' nymRef = 'France'>Françaises</placeName>, 
+       <placeName type = 'nationalité' nymRef = 'France'>Français</placeName>,</p>
+      <p>Mes chers compatriotes,</p>
+      <p>Je veux ce soir vous parler des jours qui viennent, de notre organisation face à l’épidémie, tirer les <num type = "ordinal" val="1st">premières</num> 
+      leçons de cette crise, et dessiner en quelques lignes notre nouveau chemin.</p>
+      <p>A partir de demain, nous allons pouvoir tourner la page du <num type = "ordinal" val="1st">premier</num> acte, en quelques sortes, 
+      de la crise que nous venons de traverser,</p>
+      <p>Dès demain, tout le territoire - à l’exception de <placeName nymRef = 'Mayotte'> <region nymRef = 'Mayotte'>Mayotte </region> </placeName>et de 
+      la  <placeName nymRef = 'French Guyana'> <region nymRef = 'French Guyana'> Guyane </region></placeName> où le virus circule encore activement 
+      tout le territoire donc passera dans ce qu’il est désormais convenu d’appeler la « zone verte », 
+      ce qui permettra notamment une reprise plus forte du travail, et la réouverture des cafés et restaurants 
+      en  <placeName nymRef = "Ile-de-France"><region nymRef = "Ile-de-France"> Île-de-France </region></placeName>.</p>
+      <p>Dès demain, il sera à nouveau possible de se déplacer entre les pays  <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName>. 
+      Et à partir du <date when ="2020-07-01">1er juillet</date>, nous pourrons nous rendre dans les Etats 
+      hors d’ <placeName nymRef = "Europe"> <bloc nymRef = 'Europe'>Europe </bloc></placeName> où l’épidémie sera maîtrisée.</p>
+      <p>Dès demain, en <placeName nymRef = "Metropolitan France"> <region nymRef = "Metropolitan France">hexagone</region></placeName> 
+      comme en <placeName nymRef = "DOM-TOM"> <region nymRef = "DOM-TOM"> Outre-mer</region></placeName>, 
+      les crèches, les écoles, les collèges se prépareront à accueillir à partir du <date when ="2020-06-22">22 juin</date> tous les élèves, 
+      de manière obligatoire et selon les règles de présence normale.</p>
+      <p>Il faudra continuer d’éviter au maximum les rassemblements car nous savons qu’ils sont les principales occasions de propagation du virus :
+       ils resteront donc très encadrés.</p>
+      <p>Le <num type = "ordinal" val="2nd">second</num> tour des élections municipales pourra se dérouler, 
+      dans les communes concernées, le <date when = "2020-06-28">28 juin</date>.</p>
+      <p>Enfin, pour nos aînés en maisons de retraite ou en établissements, les visites devront désormais être autorisées.</p>
+      <p>Nous allons donc pouvoir retrouver le <trait type = " émotion" nymRef = "bonheur">plaisir</trait> d’être ensemble, 
+      de reprendre pleinement le travail mais aussi de nous divertir, de nous cultiver.</p>
+      <p>Nous allons retrouver pour partie notre art de vivre, notre goût de la liberté. En somme, nous allons retrouver pleinement 
+      la  <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName>.</p>
+      <p>Cela ne signifie pas que le virus a disparu et que nous pouvons  <trait type = "combat" >baisser totalement la garde</trait>. 
+      Il nous faudra pour longtemps encore vivre 
+      avec lui, respecter les règles de distance physique, l’<date from="2020-07" to="2020-08"> été 2020</date> ne sera pas un été comme les autres,
+       et il nous faudra veiller à l’évolution 
+      de l’épidémie pour nous préparer au cas où elle reviendrait avec plus de force.</p>
+      <p>La <trait type = "combat">lutte</trait> contre l’épidémie n’est donc pas terminée 
+      mais je suis <trait type = " émotion" nymRef = "bonheur">heureux</trait>, avec vous, 
+      de cette <num type = "ordinal" val="1st">première</num> victoire contre le virus. 
+      Et je veux ce soir penser avec <trait type = " émotion" nymRef = "émotion">émotion</trait> à nos morts, à leurs familles, 
+      dont le deuil a été rendu plus cruel encore en raison des contraintes de cette période.</p>
+      <p>Clore aujourd’hui le moment entamé avec le début du confinement n’avait rien d’une évidence.</p>
+      <p>Si nous pouvons rouvrir le pays, c’est parce qu’à chaque étape de l’épidémie <trait type = "mobilisation">chacun a pris sa part</trait>. 
+      Le <roleName type = "politique" nymRef = "maire">Premier ministre</roleName> et le Gouvernement
+       ont travaillé d’arrache-pied, le <orgName nymRef = "Parlement">Parlement</orgName> s’est réuni, 
+       l’Etat a tenu, les <roleName type = "politique" nymRef = "élu">élus de terrain</roleName> se sont engagés.</p>
+      <p>Le <date when = "2020-03-16">16 mars</date>, nous avons fait le choix humaniste de placer 
+      la santé au-dessus de l’économie en vous demandant de rester chez vous. 
+      <trait type = "mobilisation">Vous avez alors fait preuve d’un sens des mobilisations admirable</trait>. 
+      Et grâce à l’<trait type = "mobilisation">engagement exceptionnel</trait> de 
+      nos <roleName type = "santé" nymRef = "soignant">soignants</roleName> et de toutes
+       les équipes, l’ensemble des malades qui en avaient besoin ont pu être pris en charge à l’hôpital ou dans la médecine de ville.</p>
+      <p>Grâce à tous ceux qui parmi vous ont continué à travailler, malgré l’<trait type = " émotion" nymRef = "peur">angoisse</trait> bien souvent, 
+      pour assurer les services essentiels à la Nation, 
+      nous avons pu nous nourrir et continuer de vivre.</p>
+      <p>Lorsque le <date when="2020-04-13">13 avril</date> dernier, je vous ai annoncé une sortie du confinement 
+      à partir du <date when="2020-05-11">11 mai</date> je sais que beaucoup alors le déconseillaient, 
+      il n’y avait pas de consensus, les avis étaient très différents y compris parmi les <roleName type='expertise' nymRef = "scientifique">scientifiques</roleName>– 
+      mais nous avons collectivement et 
+      méthodiquement préparé ce qu’on a appelé le déconfinement. Là encore, <trait type = "mobilisation">tout le monde a travaillé d’arrache-pied</trait>,
+       nous avons <trait type = "combat">surmonté</trait> 
+      les <trait type = " émotion" nymRef = "peur">craintes</trait>, les <trait type = " émotion" nymRef = "peur">angoisses</trait>. 
+      Et vous êtres ressortis à nouveau et avez repris le travail. Nous avons bien fait. Nos usines, nos commerces, 
+      nos entreprises ont pu redémarrer.</p>
+      <p>La nouvelle étape qui s’ouvre à partir de demain va permettre d’accélérer la reprise. Il le faut et là aussi <trait type = "mobilisation">je compte sur vous</trait>.
+       Car nous devons faire pleinement repartir notre économie en continuant de protéger les plus fragiles.</p>
+      <p>Nous n’avons pas à <trait type = " émotion" nymRef = "honte">rougir</trait> mes chers compatriotes de notre bilan. 
+      <trait type = "laudatif">Des dizaines de milliers de vies ont été sauvées par nos choix, par 
+      nos actions</trait>. Nous avons su doubler en quelques jours nos capacités de réanimation, organiser des transferts de centaines de patients entre 
+      régions et avec les pays voisins, approvisionner les commerces, réorienter notre production industrielle, inventer des solidarités nouvelles.</p>
+      <p>La période a montré que nous avions du ressort, de la ressource. Que, face à un virus qui nous a frappés plus tôt et plus fort que beaucoup
+       d’autres, <trait type = "laudatif">nous étions capables d’être inventifs, réactifs, solides</trait>.</p>
+      <p>Nous pouvons être <trait type = " émotion" nymRef = "fierté">fiers</trait> de ce qui a été fait et de notre pays.</p>
+      <p>Bien sûr cette épreuve a aussi révélé des failles, des fragilités : notre dépendance à d’autres continents pour nous procurer certains produits,
+       nos lourdeurs d’organisation, nos inégalités sociales et territoriales.</p>
+      <p>Je veux que nous tirions toutes les leçons de ce que nous avons vécu et avec vous comprendre ce que nous avons mieux réussi ou moins 
+      bien réussi que nos voisins. Nos forces, nous les conforterons, nos faiblesses, nous les corrigerons vite et fort.</p>
+      <p>Le moment que nous traversons et qui vient après de nombreuses crises depuis <num type ="cardinal" val = "15">quinze</num> ans, 
+      nous impose d’ouvrir une nouvelle étape afin 
+      de retrouver pleinement la maîtrise de nos vies, de notre destin, en <placeName nymRef = 'France'> <country nymRef = 'France'>France</country></placeName>
+      et en <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe</bloc></placeName></p>
+      <p>Ce sera la priorité des <num type = "cardinal" val="2">deux</num> années à venir que je veux utiles pour la Nation.</p>
+      <p>C’est aussi le cap de la décennie que nous avons devant nous. Retrouver notre indépendance 
+      pour vivre <trait type = " émotion" nymRef = "bonheur">heureux</trait> et vivre mieux.</p>
+      <p> </p>
+      <p>***</p>
+      <p>Avec l’épidémie, l’économie mondiale s’est quasi-arrêtée.</p>
+      <p>Notre <num type="ordinal" val="1st">première</num> priorité est donc d’abord de reconstruire une économie forte, écologique, souveraine et solidaire.</p>
+      <p>Depuis le <num type="ordinal" val="1st">premier</num> jour de la crise, <trait type = "mobilisation">notre mobilisation est totale</trait>. « Quoiqu’il en coûte » : 
+      tel était l’engagement que j’avais pris devant vous 
+      dès le mois de <date when="2020-03">mars</date>. Chômage partiel, prêts aux entreprises, accompagnement 
+      des <roleName type = "profession" nymRef = "commerçant">commerçants</roleName>, 
+      des <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>, 
+      soutien des plus précaires : tout a été mis en oeuvre par le Gouvernement pour sauvegarder nos emplois et pour aider chacun. Nous avons décidé des plans 
+      massifs pour les secteurs les plus durement touchés : l’industrie automobile, l’aéronautique, le tourisme, la culture, la restauration, l’hôtellerie, 
+      et nous poursuivrons. Au total, nous avons <trait type = "mobilisation">mobilisé</trait> 
+      près de <num type = "cardinal" val="500 000 000 000">500 milliards</num> d’euros
+       pour notre économie, pour les <roleName type = "profession" nymRef = "travailleur">travailleurs</roleName>, pour les 
+       <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>, mais aussi pour les plus précaires. C’est inédit. 
+       Et je veux ce soir que vous le mesuriez aussi pleinement. Dans combien de 
+      pays tout cela a-t-il était fait ? C’est une chance et cela montre la force de notre Etat et de notre modèle social.</p>
+      <p>Ces dépenses se justifiaient et se justifient en raison des circonstances exceptionnelles. Mais elles viennent s’ajouter à notre dette déjà 
+      existante. Nous ne les financerons pas en augmentant les impôts : notre pays est déjà l’un de ceux où la fiscalité est la plus lourde, même si 
+      depuis <num type = "cardinal" val="3">trois</num> ans nous avons commencé à la baisser. 
+      La seule réponse est de bâtir un modèle économique durable, plus fort, de travailler et de
+       produire davantage pour ne pas dépendre des autres. Et cela, nous devons le faire, alors même que notre pays va connaître des faillites et des
+        plans sociaux multiples en raison de l’arrêt de l’économie mondiale.</p>
+      <p>C’est pourquoi, j’assumerai avec vous, avec toutes les forces de notre pays, avec le tissu de nos entreprises, 
+      avec nos <roleName type = "profession" nymRef = "salarié">salariés</roleName> comme nos 
+      <roleName type = "profession" nymRef = "indépendant">indépendants</roleName>, 
+      nos <roleName type = "profession" nymRef = "profession intermédiaire">corps intermédiaires</roleName>,
+       je m’engagerai dans cette reconstruction économique.</p>
+      <p>Il nous faut d’abord tout faire pour éviter au maximum les licenciements.  C’est pour cela qu’avec les syndicats et le patronat, nous avons 
+      lancé une négociation pour que, dans toutes les entreprises, nous arrivions à préserver le plus d’emplois possible malgré les baisses d’activité.</p>
+      <p>Il nous faut créer de nouveaux emplois en investissant dans notre indépendance technologique, numérique, industrielle et agricole. Par la
+       <trait type = "expertise">recherche</trait>, la consolidation des filières, l’attractivité et les relocalisations lorsque cela se justifie. Un vrai pacte productif.</p>
+      <p>Il nous faut créer les emplois de demain par la reconstruction écologique qui réconcilie production et climat : avec un plan de modernisation
+       du pays autour de la rénovation thermique de nos bâtiments, des transports moins polluants, du soutien aux industries vertes. Cela passera 
+       aussi par l’accélération de notre <trait type = "combat">stratégie</trait> maritime, 
+       nous qui sommes la <num type = "ordinal" val = "2nd">deuxième</num> <trait type = "combat">puissance</trait> océanique mondiale. 
+       La convention citoyenne rendra dans quelques jours son travail, qui contribuera à ce projet.</p>
+      <p>Cette reconstruction doit aussi être sociale et solidaire. Une relance par la santé comme nous avons commencé à le faire avec la 
+      négociation du Ségur qui, non seulement revalorisera les <roleName type = "santé" nymRef = "soignant">personnels soignants</roleName> 
+      mais permettra de transformer l’hôpital comme la médecine 
+      de ville par des investissements nouveaux et une organisation plus efficace et préventive.</p>
+      <p>Une relance solidaire qui permettra de mieux protéger nos aînés, mieux protéger aussi les plus pauvres d’entre nous.</p>
+      <p>Une relance sociale et solidaire enfin, par un investissement massif pour l’instruction, la formation, et les emplois de notre jeunesse. 
+      Nous le lui devons : nous lui avons tant demandé durant la période. Elle va encore avoir un été et une rentrée si difficile et c’est elle qui porte 
+      la dette écologique et budgétaire.</p>
+      <p>Ce plan de reconstruction se fera avec l’ <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe </bloc></placeName> qui, 
+      après des débuts timides, s’est hissée à la hauteur du moment. L’accord 
+       <placeName type = 'nationalité' nymRef = 'France'>franco</placeName>- <placeName type = 'nationalité' nymRef = 'Germany'>allemand</placeName> 
+       autour d’un endettement conjoint et d’un plan d’investissement pour redresser l’économie du continent est un tournant 
+      historique. En empruntant pour la <num type = "ordinal" val = "1st">première</num> fois ensemble, 
+      avec la <persName nymRef = "Angela Merkel"><roleName type = "politique" nymRef = "chancelière">chancelière</roleName> d’ <placeName nymRef = 'Germany'> <country nymRef = 'Germany'>Allemagne </country></placeName></persName>,
+       nous proposons aux autres Etats <placeName type = 'nationalité' nymRef = 'Europe'>européens</placeName> 
+      de dire « nous » plutôt qu’une addition de « je ». C’est le résultat d’un travail acharné, initié par 
+      la  <placeName nymRef = 'France'> <country nymRef = 'France'>France</country></placeName>, 
+      et que nous menons depuis <num type = "cardinal" val="3">trois</num> ans. Ce peut être là, 
+      une étape inédite de notre aventure  <placeName type = 'nationalité' nymRef = 'Europe'>européenne</placeName> et la consolidation 
+      d’une <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe </bloc></placeName> <trait>indépendante</trait> qui se donne les moyens d’affirmer 
+      son identité, sa culture, sa singularité face à la <placeName nymRef = 'China'><country nymRef = 'China'>Chine </country></placeName>, 
+       aux  <placeName nymRef = 'USA'> <country nymRef = 'USA'>Etats-Unis </country></placeName> et dans le désordre mondial que nous connaissons. 
+       Une <placeName nymRef = 'Europe'> <bloc nymRef = 'Europe'>Europe </bloc></placeName> <trait>plus forte</trait>, plus solidaire, plus souveraine. 
+       C’est le <trait type = "combat"> combat</trait> que je mènerai en votre nom 
+       dès le <orgName nymRef = 'European Council'>conseil <placeName type = 'nationalité' nymRef = 'Europe'>européen</placeName></orgName> 
+       de <date when = "2020-07"> juillet</date> et dans les <num type = "cardinal" val="2">deux</num> années à venir.</p>-->
+      <p>Cette reconstruction économique, écologique et solidaire sera la clé notre indépendance. Elle sera préparée durant tout l’été avec les forces
+       vives de notre Nation pour être mise en oeuvre au plus vite. </p>
+      <p>L’indépendance de la  <placeName nymRef = 'France'> <country nymRef = 'France'>France </country></placeName> pour vivre mieux exige aussi 
+      notre unité autour de la République. Tel est le <num type = "ordinal" val="2nd">deuxième</num> axe de cette nouvelle étape. 
+      Je nous vois nous diviser pour tout et parfois perdre le 
+      sens de notre Histoire. <trait type = "mobilisation">Nous unir autour du patriotisme républicain est une nécessité</trait>.</p>
+      <p>Nous sommes une Nation où chacun, quelles que soient ses origines, sa religion doit trouver sa place. Est-ce vrai partout et pour tout le 
+      monde ? Non.</p>
+      <p>Notre <trait type = "combat">combat</trait> doit donc se poursuivre, s’intensifier pour permettre d’obtenir les diplômes et les emplois qui correspondent aux mérites et 
+      talents de chacun et <trait type = "combat">lutter</trait> contre le fait que le nom, l’adresse, la couleur de peau réduisent encore trop souvent encore l’égalité des chances 
+      que chacun doit avoir.</p>
+      <p>Nous serons intraitables face au racisme, à l’antisémitisme et aux discriminations et de nouvelles décisions fortes seront prises.</p>
+      <p>Mais ce <trait type = "combat">combat</trait> noble est dévoyé lorsqu’il se transforme en communautarisme, 
+      en réécriture <trait type = " émotion" nymRef = "haine">haineuse</trait> ou fausse du passé. 
+      Ce <trait type = "combat">combat</trait> est inacceptable lorsqu’il est récupéré par les séparatistes.</p>
+      <p>Je vous le dis très clairement ce soir mes chers compatriotes, la République n’effacera aucune trace ni aucun nom de son Histoire. 
+      La République ne déboulonnera pas de statue. Nous devons plutôt lucidement regarder ensemble toute notre Histoire, toutes nos mémoires,
+       notre rapport à l’<placeName nymRef = 'Africa'> <bloc nymRef = 'Africa'>Afrique</bloc></placeName> en particulier, pour bâtir un présent et un avenir possible, 
+       d’une rive l’autre de la <geogName nymRef = 'Mediterranean'>Méditerranée</geogName> avec une volonté de
+        vérité et en aucun cas de revisiter ou de nier ce que nous sommes.</p>
+      <p>Nous ne bâtirons pas davantage notre avenir dans le désordre.</p>
+      <p>Sans ordre républicain, il n’y a ni sécurité, ni liberté. Cet ordre, ce sont les <roleName type = "profession" nymRef = "policier">policiers</roleName> 
+      et les <roleName type = "profession" nymRef = "gendarme">gendarmes</roleName> sur notre sol qui l’assurent. 
+      Ils sont exposés à des risques quotidiens en notre nom, c’est pourquoi ils méritent le soutien de la puissance publique et la reconnaissance 
+      de la Nation. </p>
+      <p>Enfin, il me reviendra avec vous de bâtir de nouveaux équilibres dans les pouvoirs et les mobilisations. 
+      C’est le <num type = "ordinal" val="3rd">troisième</num> axe
+       que je vois à cette nouvelle étape. J’en ai la conviction profonde : l’organisation de l’Etat et de notre action doit profondément changer.</p>
+      <p>Tout ne peut pas être décidé si souvent à <placeName nymRef = "Paris"> <settlement type = 'city' nymRef = 'Paris'> Paris </settlement></placeName>.</p>
+      <p>Face à l’épidémie, les citoyens, les entreprises, les syndicats, les associations, les collectivités locales, les agents de l’Etat dans les 
+      territoires <trait type = "laudatif">ont su faire preuve d’ingéniosité, d’efficacité, de solidarité</trait>.</p>
+      <p>Faisons-leur davantage confiance. Libérons la créativité et l’énergie du terrain.</p>
+      <p>C’est pourquoi je veux ouvrir pour notre pays une page nouvelle donnant des libertés et des mobilisations inédites à ceux qui agissent
+       au plus près de nos vies, libertés et mobilisations pour nos hôpitaux, nos universités, 
+       nos  <roleName type = "profession" nymRef = "entrepreneur">entrepreneurs</roleName>, 
+       nos <roleName type = "politique" nymRef = "maire">maires</roleName> et beaucoup d’autres 
+       <roleName type='expertise' nymRef = "acteur">acteurs essentiels</roleName>.</p>
+      <p>***</p>
+      <p>Mes chers compatriotes,</p>
+      <p>Ce projet d’indépendance, de reconstruction n’est possible que parce que, depuis <num type = "cardinal" val="3">trois</num> ans, 
+      nous avons mené un travail sans relâche 
+      pour l’éducation, l’économie, la <trait type = "combat">lutte</trait> contre les inégalités dans notre pays. 
+      Parce qu’aussi nous nous sommes <trait type = "combat">battus</trait> pour notre projet 
+     <placeName type = 'nation' nymRef = 'Europe'>européen</placeName> et notre place dans l’ordre international.</p>-->
+      <p>Je ne crois pas que surmonter les défis qui sont devant nous consiste à revenir en arrière, non.</p>
+      <p>Mais les temps imposent de dessiner un nouveau chemin. C’est ainsi que chacun d’entre nous doit se réinventer comme je l’ai dit et que
+       nous devons collectivement faire différemment et vous l’avez compris ce que j’ai commencé ce soir à esquisser, je me l’applique d’abord et 
+       avant tout à moi-même.</p>
+      <p>C’est dans cet <trait type = "mobilisation">esprit de concorde</trait> que j’ai demandé aux <roleName type = "politique" nymRef = "président">Présidents</roleName> 
+      des <num type = "cardinal" val = "2nd">deux</num> <orgName nymRef = "Parlement">chambres parlementaires</orgName> et 
+      du <orgName nymRef = "Conseil économique, social et environnemental">Conseil économique, social 
+      et environnemental</orgName> de proposer quelques priorités susceptibles de rassembler le plus grand nombre. C’est aussi dans cet esprit que j’ai 
+      engagé des consultations larges que je poursuivrai durant les prochains jours.</p>
+      <p>Je m’adresserai à vous en <date when="2020-07">juillet</date> pour préciser ce nouveau chemin, lancer les <num type = "ordinal" val = "1st">premières</num> actions. 
+      Et cela ne s’arrêtera pas.</p>
+      <p> </p>
+      <p>***</p>
+      <p>Mes chers compatriotes,</p>
+      <p>Nous avons devant nous des défis historiques.</p>
+      <p>Pour les relever, <trait type = "laudatif">n’oublions jamais nos forces : notre histoire, notre jeunesse, notre sens du travail et de l’engagement, notre volonté de 
+      justice, notre capacité de créer pour dire et changer le monde, notre bienveillance</trait>.</p>
+      <p><trait type = "mobilisation">Agissons ensemble</trait> avec toutes ces forces chevillées au corps.</p>
+      <p><trait type = "mobilisation">Ayons ensemble cette volonté de <trait type = "combat" subtype = "militaire">conquérir</trait>, cette énergie du jour qui vient</trait>. </p>
+      <p>Vive la République !</p>
+      <p>Vive la  <placeName nymRef = "France"> <country nymRef = 'France'>France </country></placeName> !</p>
+    </body>
+  </text>
+</TEI>
